@@ -1,0 +1,37 @@
+[
+  {
+    "path": ".",
+    "url": "https://github.com/BFrizzleFoShizzle/RE_Kenshi",
+    "commit": "210a7adbf1b95b1ade0c33417ca87de1b8f6335e",
+    "tracked_files": 54,
+    "local_changes": ""
+  },
+  {
+    "path": "KenshiLib",
+    "url": "https://github.com/BFrizzleFoShizzle/KenshiLib",
+    "commit": "11cd65d557dea76c6540239acf467e0e06e09cf7",
+    "tracked_files": 1326,
+    "local_changes": ""
+  },
+  {
+    "path": "CompressTools",
+    "url": "https://github.com/BFrizzleFoShizzle/CompressTools",
+    "commit": "d78acacfb0d90183983445b1d6848f4b755023e3",
+    "tracked_files": 31,
+    "local_changes": ""
+  },
+  {
+    "path": "thirdparty/rapidjson",
+    "url": "https://github.com/Tencent/rapidjson",
+    "commit": "48fbd8cd202ca54031fe799db2ad44ffa8e77c13",
+    "tracked_files": 313,
+    "local_changes": ""
+  },
+  {
+    "path": "thirdparty/rapidjson/thirdparty/gtest",
+    "url": "https://github.com/google/googletest",
+    "commit": "ba96d0b1161f540656efdaed035b3c062b60e006",
+    "tracked_files": 319,
+    "local_changes": ""
+  }
+]

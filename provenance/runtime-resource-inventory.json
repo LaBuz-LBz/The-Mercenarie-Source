@@ -1,0 +1,2386 @@
+[
+  {
+    "path": "Guild Escort Contracts.mod",
+    "bytes": 143753,
+    "sha256": "683a54193d74659f865a5e7752f0a220378e1028966fd10887fb7f2e548fed32",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "game-mod-data-review-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "GuildEscortContracts.dll",
+    "bytes": 4344832,
+    "sha256": "3f5e35aca29d8685bf2e583570ed50d1ad0518d87115302ce6c978a2c84df423",
+    "disposition": "Binary reference only; source release does not duplicate installed executable",
+    "classification": "binary-reference",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "GuildEscortMap.png",
+    "bytes": 7449909,
+    "sha256": "fa521bc4b7de700789a5787103a5bd67959e8131768577fc63740577a4af1fe9",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "guild_black_chainmail_f_d.dds",
+    "bytes": 5592560,
+    "sha256": "c55ac5faa7cb0ffa9ee97fbbdc166f58bd1bb395a43fe739a6ab6ebb6685f6ef",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "guild_black_chainmail_m_d.dds",
+    "bytes": 5592560,
+    "sha256": "4be1e22842c56be255d0d8cdddb59db6d191e1951c29f7f8cec5861e10f93c57",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "guild_black_pants_d.dds",
+    "bytes": 2796368,
+    "sha256": "0610bba7d9c8e9e26552db836c2b7c022afcd112feb59f7e141543f710719547",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "guild_chainmail_icon.png",
+    "bytes": 24830,
+    "sha256": "e3d65e81436b8dc326e909f9c450a94d4d29d57e7d18d8f61354c0ab89708df8",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "guild_mask_black_d.dds",
+    "bytes": 2796368,
+    "sha256": "7c649a5010ab4ac68c54d2235e517e2b1cdfc953310fe2885e0a9c802e7e7328",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "guild_mask_black_icon.png",
+    "bytes": 11535,
+    "sha256": "5c76c28ae6c0bdad01b31b9834a1543a4a5b240cd14ae7d8d8b7a6544e117854",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "guild_mask_black_n.dds",
+    "bytes": 1398248,
+    "sha256": "dbd5d36f99696ab54e61fdf4b7434572972ce66638d10360b320607fbd8b75b2",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "hub-blister.route",
+    "bytes": 4967,
+    "sha256": "1df730a1f4df118aa6764dc561a7661932e7575ebd3a92c179f9b16585195e30",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "MissionPlatoonPrototype.log",
+    "bytes": 553,
+    "sha256": "8acddcfca7a807ec365bf8ac7bd3397703a1c123b4d74c6cfea2233a3f0818d7",
+    "disposition": "Private runtime log or user settings; not required source",
+    "classification": "private-or-installation-state-excluded",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "Options.ini",
+    "bytes": 370,
+    "sha256": "cc8a8a98f0a79ad9bfd83c5911b3eadea011cf4d973832b0f4056131ea2dd72f",
+    "disposition": "Private runtime log or user settings; not required source",
+    "classification": "private-or-installation-state-excluded",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "performance-audit.log",
+    "bytes": 627973,
+    "sha256": "a662a1e89c71b589e117613e31df7b503eec8ffcc6575b89ca352e4bbd106a6c",
+    "disposition": "Private runtime log or user settings; not required source",
+    "classification": "private-or-installation-state-excluded",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "pricing-roads.dat",
+    "bytes": 1030351,
+    "sha256": "7eb04ece614ceb11b2c47715c1a6d647b7e65cd5eebc5e4ebe9c9577f6461e2b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "game-mod-data-review-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "RE_Kenshi.json",
+    "bytes": 54,
+    "sha256": "f1ca558dc22feb1fc8043dcbaa59ca3b53063c897d776e0f7ba4caa2cbfc7faa",
+    "disposition": "Included under runtime/",
+    "classification": "editable-runtime-text-already-included",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "THIRD_PARTY_ASSETS.txt",
+    "bytes": 430,
+    "sha256": "6244de163fa71cbf36281a96b0696785517bf232afdb74495834362f27aaf56b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "game-mod-data-review-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "_Guild Escort Contracts.img",
+    "bytes": 652177,
+    "sha256": "166dfb65ede2a03e721572a075d30f6d2801bf802b4a88ce47d755b68895dfac",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "_Guild Escort Contracts.info",
+    "bytes": 503,
+    "sha256": "5342633e9f3eaabff6a0c5ea07de3adc0c4e6eb33510693f275aef4c2aebd3e0",
+    "disposition": "Workshop publishing metadata; no publishing operation needed",
+    "classification": "private-or-installation-state-excluded",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "animations/guard_rest_female.skeleton",
+    "bytes": 5348,
+    "sha256": "7ae3ccb7e43b5c1539f8ae1b5305347bacb6ad8f18e104e34affd50e5e2c1039",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "animations/guard_rest_male.skeleton",
+    "bytes": 5357,
+    "sha256": "16845d7a91d5c886c58ab917a20c8390f347f33f8b3b95b84cdd52d6de132fd1",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "animations/guard_salute_female.skeleton",
+    "bytes": 5350,
+    "sha256": "ede767f64e469ec0752cac777d501741daa6391c10ca20aaaa6b128b4e334d87",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "animations/guard_salute_male.skeleton",
+    "bytes": 5359,
+    "sha256": "dbc49f82530b4c3561d39ab7fbc8f5c019b57f601a1189b1ab9097aa41565f78",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/guild_chainmail_icon.png",
+    "bytes": 24830,
+    "sha256": "e3d65e81436b8dc326e909f9c450a94d4d29d57e7d18d8f61354c0ab89708df8",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/guild_daisho_icon.png",
+    "bytes": 14957,
+    "sha256": "6483854e991d7c0d9cc8f5e18f0f28c9007cbe21fcdfd22b0497c19c49e7f514",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/guild_katana_icon.png",
+    "bytes": 12345,
+    "sha256": "e46b2be632e0e74c8347323675a2517efb380c252eda5ca87e4861390950f0aa",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/guild_martial_bindings_icon.png",
+    "bytes": 20360,
+    "sha256": "983e279c1aa63f3825fa1b87ea96e44c13d10482552d1c128f5c23491e4c8533",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/guild_mask_black_icon.png",
+    "bytes": 11535,
+    "sha256": "5c76c28ae6c0bdad01b31b9834a1543a4a5b240cd14ae7d8d8b7a6544e117854",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/guild_plated_drifter_pants_icon.png",
+    "bytes": 59969,
+    "sha256": "473ddb45ee273e0e556619d327012d73cea7848354df4d518544bea25f838edb",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/guild_service_pants_icon.png",
+    "bytes": 33659,
+    "sha256": "0419b7243926ff9a268698ff4b326a88adc90b73cc760737df33d5fd8283febd",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/guild_service_vest_icon.png",
+    "bytes": 13468,
+    "sha256": "36d4207e3982055deadd876d1bde7c8ae7e91ddc3e53118c7b5901145bec82c9",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/holy_mercenary_paladin_helmet_icon.png",
+    "bytes": 43108,
+    "sha256": "1635e9864023556415ff9a5ba1fc6759013b68e2d19b958ac434da1400b0aa23",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/holy_mercenary_plastron_icon.png",
+    "bytes": 86514,
+    "sha256": "6683ddc1178cb39fee5efffee2a107d66cfa32389587aeaaa520574ad6c99b9c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/holy_mercenary_plated_boots_icon.png",
+    "bytes": 12741,
+    "sha256": "4a40f8cd31a4289088d7098a507375f4c07f039ec9be1e2f4f6a4ce488cd9f4b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "icons/holy_mercenary_samurai_pants_icon.png",
+    "bytes": 65224,
+    "sha256": "85ccbd3e0d7bf4aaa27e16465a718fcbd41aa9a6c996e5d458e107b9e5a6f591",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "leveldata/interiors.level",
+    "bytes": 65558,
+    "sha256": "1d270fd5b612f840c5a6d2449a79b8aefad3644b43b286d0b5732de83039342b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "game-mod-data-review-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "Localization/en.json",
+    "bytes": 188403,
+    "sha256": "71ce41e25c4fc35e76ac1eb51c0295cc798cc294f58932e61bb5f24343002ab6",
+    "disposition": "Included under runtime/",
+    "classification": "editable-runtime-text-already-included",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "Localization/fr.json",
+    "bytes": 201748,
+    "sha256": "709f82054d166ff867ef8d459794c51d9d49393b6cfc5d65f727dedf3b6bb287",
+    "disposition": "Included under runtime/",
+    "classification": "editable-runtime-text-already-included",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "Localization/pl.json",
+    "bytes": 194423,
+    "sha256": "7c517c7ecb20761321d91c8087066f61b49290d214ecd2f3d177c83672888c16",
+    "disposition": "Included under runtime/",
+    "classification": "editable-runtime-text-already-included",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "Localization/ru.json",
+    "bytes": 255351,
+    "sha256": "199a3d24c650faa9d973a34f00c160b5bfbdf352d1666ce3a894222141fddaba",
+    "disposition": "Included under runtime/",
+    "classification": "editable-runtime-text-already-included",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/Drifter2_pants_Light Armour_F.skeleton",
+    "bytes": 1786,
+    "sha256": "75a64d34d07f638652a9c42a6a6e65c5b3c6d71c1c62fa7a51f35531c69c9f87",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_backed_chair.bin",
+    "bytes": 1514,
+    "sha256": "4f6ade7c3bfbbabb2c2b8329b4a1a951cfb0ed2bcf898ce9eec84b11c1fe0877",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "third-party-chair-integration-permission-only",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_backed_chair.mesh",
+    "bytes": 31086,
+    "sha256": "bda6376c3f10e576f7cbbcc849385b94afbee6e30672c92a3ed30e564d8d29be",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "third-party-chair-integration-permission-only",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_backed_chair.xml",
+    "bytes": 1749,
+    "sha256": "c6ad32a6f7cd291c0d4e77de0da6a2eb0df36e361b167951f245cba545afb6c0",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "third-party-chair-integration-permission-only",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_chestplate_female.mesh",
+    "bytes": 888589,
+    "sha256": "3f05e65708dfef52c7504a4913213f43dbabf5394d394b48fbd36b4ea45ee87f",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_chestplate_male.mesh",
+    "bytes": 844925,
+    "sha256": "2d11bc455c17f35652e4b2d791308c0b12c7c48db455749476f9d62b426a303d",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_daisho.mesh",
+    "bytes": 94424,
+    "sha256": "880dcd96c40d7fe5ffd4b2ef562e546fc9fb7a16631579e1da0b98ed2d72380d",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_daisho_sheath.mesh",
+    "bytes": 68624,
+    "sha256": "59f823fd720f38c93f4bcf8160b7a7c32682ea7dea08728aaf8e32f65aab4a45",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_helmet_female.mesh",
+    "bytes": 2246252,
+    "sha256": "c301a472c6cc4e7dd69ffc5d31aa5cc2405cfdff6e7c4e94666da4cf95bb149d",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_helmet_male.mesh",
+    "bytes": 2232700,
+    "sha256": "ac4100c4c1c123c30ed62d1cd4d70788ff6bdd8241515a7aaa0d58d09155f6a6",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_katana.mesh",
+    "bytes": 47324,
+    "sha256": "f99348c8db5dde6af2f5afdfd8c52f753cca3b6997c3b4b52e627d77600da472",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_katana_bare.mesh",
+    "bytes": 48374,
+    "sha256": "9e3ce1fe689412ca2810539e391a0351d03dea6b854f063cbaf673e4ea2d07a7",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_katana_sheath.mesh",
+    "bytes": 21524,
+    "sha256": "f89bb2a1f995c301c1f06e69eaa09a5d6634a362c022e299b03927d906f3b60b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_mask_human_f.mesh",
+    "bytes": 74442,
+    "sha256": "6216c2f6c1e710ffc233c8401357a85eff3c61aac212e08856bf5eb4d0dd3150",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_mask_human_m.mesh",
+    "bytes": 75624,
+    "sha256": "f1045aa9f70cb97be66ff9d420da46f4886905716c5f901f72e4b3746d128df2",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_pants_female.mesh",
+    "bytes": 1898432,
+    "sha256": "20a80959b7f2d7ce3cb7396eef44793a2c8a72ba8fa915c911dd02acbd8b7b95",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_pants_female_hd.mesh",
+    "bytes": 1895730,
+    "sha256": "2c0eb2389d69787fca72bf5aa917bbd43db7612d0d3a309317ce744543986612",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_plated_drifter_pants_f.mesh",
+    "bytes": 241502,
+    "sha256": "8a3da13b925cc7056961438a0e80d8670e1c25e09291f5128cffc5ffdaf8a9bc",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_plated_drifter_pants_m.mesh",
+    "bytes": 250716,
+    "sha256": "c4f51fb5df2ff6ff502b008305a900f156a658bab88fa012ff1681b4bdaac9f5",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/guild_service_pants_female_hd.mesh",
+    "bytes": 245218,
+    "sha256": "ab3e2e6403e5ab65e0a89e732c8701958a1c9e52399ce140d3b881dcfc47c3fa",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/helmet_04masked.skeleton",
+    "bytes": 1803,
+    "sha256": "e8655b8743ff1c283f9b04d8a1d7df4816a02e67ac59f6ab4ea880bedd60c214",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/helmet_04masked_F.skeleton",
+    "bytes": 1794,
+    "sha256": "9c6b38ef186affe4750ff0947102c5240ff0549e3b6cafda435fbc42ad361826",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/holy_mercenary_variant2_pants.mesh",
+    "bytes": 506958,
+    "sha256": "e1693280427dd051dfadf658b2034440c27d53f76ab11ab105ab5b64e0e18fe1",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/holy_mercenary_variant2_pants.skeleton",
+    "bytes": 1803,
+    "sha256": "1d47a014b68f1f1b24f77063ba3ea7eca28ca81e951de46a2d489f8b533e79e7",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/MercenaryArmourLeather.skeleton",
+    "bytes": 1803,
+    "sha256": "e8655b8743ff1c283f9b04d8a1d7df4816a02e67ac59f6ab4ea880bedd60c214",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/MercenaryLeatherArmour_F.skeleton",
+    "bytes": 1794,
+    "sha256": "acabd7b7dbfb5635ada7cca4fb4d2659adc086cae955db53278e9ae7435fbfcb",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/mission_book.mesh",
+    "bytes": 33420,
+    "sha256": "7001bea5b5f39ef259ad62160ee6d4b0c6206579080414f7a43829983723d3d4",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/mission_book_collision.xml",
+    "bytes": 20706,
+    "sha256": "95932b3de429065465f5521755b99dc82bab5b190d09cb6d56b53026042f3ca2",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/placeable_mission_book.mesh",
+    "bytes": 24845,
+    "sha256": "294dc3409a87827b66021ca2abe0be27de8de53e854e988db665b969bd6b05f0",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/placeable_mission_book_collision.xml",
+    "bytes": 18161,
+    "sha256": "3e2a831da5b147ec2ca2359b47a46c3f733f57c016c66d88bedc3b36fe507209",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "meshes/placeable_mission_book_collision_1.1.bin",
+    "bytes": 9380,
+    "sha256": "62790d8954de8f2c0850574f71b2904ca608365c5b760f8780ec64cca6b4fdad",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_blades_d.dds",
+    "bytes": 1398256,
+    "sha256": "a1188b9b270c3c1b1ddc668f273c8cfde4faaf1b098b8e43431969d08ad978bf",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_blades_n.dds",
+    "bytes": 1398256,
+    "sha256": "a97f05d35e7c24e7a558b33ed192d877ba43c6443a8a0497e85e84b1acdb1d23",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_elite_helmet_d.dds",
+    "bytes": 33554560,
+    "sha256": "03bc5e8a2011aeca296099316ec682ec42086eddfedcd1cac1dcaa71db191402",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_elite_helmet_mask.dds",
+    "bytes": 33554560,
+    "sha256": "75c3de3eda87febdbf583ce1330b7dffcca57277e752e2753b72b10278ab537d",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_elite_helmet_n.dds",
+    "bytes": 1152,
+    "sha256": "10f8b112accaabfb79078fbfa3a0c2fde98d5b2d410def4e994cdde003bdc952",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_martial_bindings_female_d.dds",
+    "bytes": 5592560,
+    "sha256": "f8d2133c00fe92bc9c873036dd3f06e8acede0a3a673e2610d18ac316cf39521",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_martial_bindings_female_n.dds",
+    "bytes": 5592560,
+    "sha256": "7f6d4297b01e7ab1f0332d4dc620b4d2ef5464ba758b08f435254620ecc1614a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_martial_bindings_male_d.dds",
+    "bytes": 5592560,
+    "sha256": "62318a762e0ba5a301f8882f3f2efe573153f29dee62e9dc4c5df7be18fd2755",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_martial_bindings_male_n.dds",
+    "bytes": 5592560,
+    "sha256": "ce4f772957093ad3e66f5851a676ba8dd3c99942ebce178ad356b459307353a2",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_plated_drifter_pants_black_white_d.dds",
+    "bytes": 2796368,
+    "sha256": "28c03a745f6e0c8b82496fbb9e8c4c1608eac4b713aeafb0ab8478d020a0a140",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_robotic_arm_d.dds",
+    "bytes": 1398256,
+    "sha256": "a6b97b92748704af3e1a8114ef24e237575c866e5badac2b8ce27b674dc5c522",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_robotic_arm_d.png",
+    "bytes": 1330273,
+    "sha256": "a183f3a9fcdcc6dd7c2fdbbe788f936062b19047f2bcc11ac559956026e99958",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_robotic_arm_n.dds",
+    "bytes": 699192,
+    "sha256": "7b789be7c440d874545966b61bc3b8b371ded321104f810148b8d30537b3525a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_service_pants_d.dds",
+    "bytes": 1398256,
+    "sha256": "3b415d26ba8ee945fc5fd9763563e834d3670a29bfee12a9b7aa006ee32df2be",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_service_vest_female_d.dds",
+    "bytes": 5592560,
+    "sha256": "ded5dc7350fce43ea167cfac532a80b8b7dcb47f095c5a2e98f57d078a3a2286",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_service_vest_male_d.dds",
+    "bytes": 5592560,
+    "sha256": "afc1b22f30b3260b65237f9bac64d44736ba84a330306729b537ccc0742d0b90",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_tshirt_female_d.dds",
+    "bytes": 5592560,
+    "sha256": "874ab0fa31ede393a87ae08608a8d094c26b9ff7fb4047f5517811327c061610",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/guild_tshirt_male_d.dds",
+    "bytes": 5592560,
+    "sha256": "f9aef6846d99dfccce8a3a455b76bcafde7288635daac316325d91de0e69108c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/holy_mercenary_paladin_helmet_d.dds",
+    "bytes": 22369776,
+    "sha256": "a90c92064d7608dc5a92481e4edc98f9a1324979d098e0e2e12fa8b29e46233a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/holy_mercenary_plastron_d.dds",
+    "bytes": 5592560,
+    "sha256": "b7fa5eb21ca69a9ee1f76e2bd0ec4e82829960d7a33f46937621733c222e2be0",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/holy_mercenary_plated_boots_d.dds",
+    "bytes": 5592560,
+    "sha256": "0d7a4fdca677279deee6f16036f4bab16e5d7e2d6a8e57ed1209dfdb7f6ff30e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/holy_mercenary_samurai_pants_black_d.dds",
+    "bytes": 5592560,
+    "sha256": "ab6aad3b79b87b87699b33c7971bc163488cd2591bbd481bce7cf8ac3d5520c1",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/holy_mercenary_samurai_pants_d.dds",
+    "bytes": 5592560,
+    "sha256": "9b9279643d03287aad66c5e7f2ccb0bcddd379438033e5260b447efdcdab548e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "textures/holy_mercenary_samurai_pants_plastron_d.dds",
+    "bytes": 5592560,
+    "sha256": "54598a445c63b492dfeded1ab6d3778525ad6a413a9aecac0f1f496b095d26ad",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "character/articulated/human_female_fingers.mesh",
+    "bytes": 1874803,
+    "sha256": "99d0a703e9c99bf21875ef74ed0c79921ca5438f6c8a4af02d5c7f982c7e8bd6",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "character/articulated/human_female_fingers.skeleton",
+    "bytes": 9243,
+    "sha256": "99a0922b3f6dd2b960faf568e76966b39ed02cdac03bc1e75e69a98c32245311",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "character/articulated/human_male_fingers.mesh",
+    "bytes": 1783034,
+    "sha256": "4007649640f60b1b816ceacefdd164bda93992376cbb5361a608969ef18a2d0e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "character/articulated/human_male_fingers.skeleton",
+    "bytes": 9410,
+    "sha256": "e080ce8102897421768dd8570ea1f732e3310db3784dabc925c80ae09431ac18",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif58.xml",
+    "bytes": 552,
+    "sha256": "c72e14a1ba9cf9b083beb86552685418605ade4e20837f6359421c1d1ddedeae",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif60.xml",
+    "bytes": 552,
+    "sha256": "2ad171c989cbcf7e6a171e1c4a18ac0bb965604d3d0cd01747ab51bf91545baf",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif62.xml",
+    "bytes": 552,
+    "sha256": "c092be3d15ab6b51d97c4563bccdcdef27eb69fff3f1b2fc36fe6aa27ff98fcf",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif64.xml",
+    "bytes": 552,
+    "sha256": "3224b3240681ecc902b1b91173cf52d38a862102720ac9c821fbf186811d7b01",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif66.xml",
+    "bytes": 552,
+    "sha256": "b4e926b11c6e1712c4f8109b8b14c1a61c9fa384f0db12f19146e87ebde871f7",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif68.xml",
+    "bytes": 552,
+    "sha256": "1e5aed546e8dd347daa031731476cfae0b1c3c5973bfbbf1e787e96439e1972c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif70.xml",
+    "bytes": 552,
+    "sha256": "03dd2ec063b2c9004cbf93e06efd0a269967a1953232241e082ba80fa13a3066",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif72.xml",
+    "bytes": 552,
+    "sha256": "0d6d48b7d47998815bd3c57e234728751b70b138b52547db52a006f7603e227d",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif74.xml",
+    "bytes": 552,
+    "sha256": "454762668227eb8e75a7199fab1c74c1fbbe15f23465015f32e296e3f732c86e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif76.xml",
+    "bytes": 552,
+    "sha256": "d8b33552babb61db2b22b7b0c02532c9d903e50f69767a488a9754d4e9ab3091",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif78.xml",
+    "bytes": 552,
+    "sha256": "97a7597a119b640a63df1734289ca487af8e6345c8b2d1724fce62efd08d0430",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif80.xml",
+    "bytes": 552,
+    "sha256": "49d9332ed50f678a6e2daadf27c4bdd48c4635473b14e55de7d1452ea4a92300",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif82.xml",
+    "bytes": 552,
+    "sha256": "0b6f1d255562aa9c6976dadd6edeac7c4985eef789380533e1958d8e083f1252",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif84.xml",
+    "bytes": 552,
+    "sha256": "ddcd6837587251bc6c5c1477e0b0b5d8cfef2b1c1b709aaa8879f5aeee7415b1",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif86.xml",
+    "bytes": 552,
+    "sha256": "1cdd44c2542d645add97f51c946d7828b3b2fd46c522d4b3e987e21474cb3527",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif88.xml",
+    "bytes": 552,
+    "sha256": "50b5fb401d23cfbd2a3bccfdea9e58aa07cf30460069f321731965d31312bee1",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif90.xml",
+    "bytes": 552,
+    "sha256": "678774c5718fd7bc83d0cd78d0e67f030cf93a5fe46fcd37ff4ba35889f33352",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif92.xml",
+    "bytes": 552,
+    "sha256": "ef6bf9123d1ce8126a2538f6dd693fab8afa10471df62e9cb5e08b677e981646",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif94.xml",
+    "bytes": 552,
+    "sha256": "e2fd450504947a1bb6b8d89076facae177444040e7b283a6ff79f089715540e4",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Basic76Serif96.xml",
+    "bytes": 552,
+    "sha256": "ea2b8258868a07d5c8c2880a9d04412610938cd8d041ddf9c77365090a77187c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/ContractBoardV6.xml",
+    "bytes": 1076,
+    "sha256": "ae9c8627f2b65cd3d15c780dcdfeafdbc5a4bc5bb6c2ac5a26a74c93d3713ca8",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/ContractIconsV6.png",
+    "bytes": 14151,
+    "sha256": "cfb8aeaedd14cc4b4c17af2b4a61eac213a75c0803acf28a2fb75010d1a92577",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/ContractReroll.png",
+    "bytes": 1792,
+    "sha256": "f95d92d8aa0d4f1fbf45cb865c75a48d14f4c9f229a5745fc0c75d9dfbae22df",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildDashboardHero.png",
+    "bytes": 2203985,
+    "sha256": "f96526ee86ad2314701b31c30bb3e80f14fcc1be59f526fb87c5acf6ff6d5d89",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildEscortCityGreen.png",
+    "bytes": 1795601,
+    "sha256": "a01d8b16d2872def60fbfc64bb004ffab72bf3c758b323962a3fc859f181e37b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildEscortCityRed.png",
+    "bytes": 1573895,
+    "sha256": "42feec09ba57d76a098227b69d025705e7e85f1418d8568fd6bdc1853d60f2d4",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildEscortMap.png",
+    "bytes": 7449909,
+    "sha256": "fa521bc4b7de700789a5787103a5bd67959e8131768577fc63740577a4af1fe9",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildHeroBackdrop.png",
+    "bytes": 2050844,
+    "sha256": "d73bc250b5850647eba6837de885c52cdd6adcfae80742bd7162352824f4ce03",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevel0.png",
+    "bytes": 19099,
+    "sha256": "e4873f11d26d5c83a933c2d44311cfa48b1c2ff60050a98a12a80a497fad0daa",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevel1.png",
+    "bytes": 19143,
+    "sha256": "451ef9c6b0f9f2a93459a156fde9a5e444c1f5de684efc4af9f01a5c20545711",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevel10.png",
+    "bytes": 34264,
+    "sha256": "3dffa253e1f3d6ce721539687110e617a72dcdcd4fb8a595a6c756fc920d354c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevel2.png",
+    "bytes": 19419,
+    "sha256": "2fbb26f9fe65e7cbcb4b842b31c59f8f21c1b331423e22e42807552ac5375c84",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevel3.png",
+    "bytes": 22365,
+    "sha256": "a4498b55359fe229a24eafb8f07cfd0b2e72c4f01ca2209184d8c10fe9b61070",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevel4.png",
+    "bytes": 23289,
+    "sha256": "8c2a688af1f4c634c96a3606a27d6ee7edf14cde9d106714225a235890739a97",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevel5.png",
+    "bytes": 25357,
+    "sha256": "2fd943d5f8564757541bd11b2279cee062ec54718bfa6e2fe5e4f6156c61e629",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevel6.png",
+    "bytes": 26410,
+    "sha256": "357151f6f1cdb6899a5d9799a2a752d4818bd0ac274e9d5e73999f13c96e1b13",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevel7.png",
+    "bytes": 28313,
+    "sha256": "e7d4cef91f80bad6fd3325294d70e885997c70e506197b5662fe566c2a0fd440",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevel8.png",
+    "bytes": 28661,
+    "sha256": "8494ba43fdfa6d91ec48405fa861d3df770b03bfd0aa3ca1292306f09982e477",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevel9.png",
+    "bytes": 31186,
+    "sha256": "790f5e853a389be5f1f0382034648cb57ae9285434fcafb44c61ac90c57e08ee",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevelBackground.png",
+    "bytes": 2378932,
+    "sha256": "2b536492eb4dd36260964a9ae07c26613e33377b07e5ac3c30b393373f1277aa",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevelCounter.png",
+    "bytes": 2782808,
+    "sha256": "0229a6fbe1bf6a3ad9f5e66a47257ca6002b98ac5217595968cf841608c84c46",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildLevelRing.png",
+    "bytes": 1551086,
+    "sha256": "a1cb7faa2b47ca4ef6586031c12ed4b0b21255fb66e572614aa11509ab60f723",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildManagementScene.png",
+    "bytes": 2062247,
+    "sha256": "5a92da2d7bbcc135109e4adeaacfdb62987445506f07e45baad2e5e00d944b40",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildMenuFrame.png",
+    "bytes": 2161578,
+    "sha256": "7b6e7105fdab7c299a72815f7d36f111ec8b79574eca2b68bbc06bf548f69025",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildMenuIcons.png",
+    "bytes": 851466,
+    "sha256": "c1314beed8327e9b7795e26fdd1950ce1611b105aac67526e0e27fe1461816f7",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildPlace1.png",
+    "bytes": 2332374,
+    "sha256": "edfc7f3afa5bda7ffea04fc30b5274affbf98b53344c68775d3eecb77f6337e8",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildPlace2.png",
+    "bytes": 2215087,
+    "sha256": "98cf0054c12304bd26e96f0e3525632cfecb354a44b5c26b0c83ae8be466555d",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildPlace3.png",
+    "bytes": 2147864,
+    "sha256": "642de35453a8b0bf38180142056e68e189641fa7d97451bb437dc38b2ddaf91c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildPlace4.png",
+    "bytes": 2816494,
+    "sha256": "69c2752806b6c7de604ceff2de5a3effbe8b3c344b32106db922c5b43ecbefaa",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildPlace5.png",
+    "bytes": 2293966,
+    "sha256": "6458b8854cd531216e7cff59d74bbb6a5d45a09211ad4802df4cf80e78090ffd",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildPlace6.png",
+    "bytes": 2704776,
+    "sha256": "26b9e1e731b92b6e7846775fa9105149faebf6b10747ef157660a3727a5f9366",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildProgressIcons.png",
+    "bytes": 1600475,
+    "sha256": "87388ffa1c809d544835947f26871f8bbdcea9da4a901bbf7d3f01f63aa3b0cd",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildProgressLevel01.png",
+    "bytes": 165450,
+    "sha256": "4b684465dc6eca046375446057c1c4f2be1d63a83d8a9b2feffb0725afd2eca8",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildProgressLevel02.png",
+    "bytes": 164924,
+    "sha256": "eb064772375f0dee1b4b2aad9e7a24e7a1ec0ea24d495b21f1c99b29c7b7a3a2",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildProgressLevel03.png",
+    "bytes": 231560,
+    "sha256": "5964bed27b0edc1088f7bc31faf893bac1473f433cc909a61218a3fe1358a16e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildProgressLevel04.png",
+    "bytes": 158475,
+    "sha256": "0e27e91fd639acdad9c4e5ff4ddbb41d77a7276527d73b9322f4225f20950444",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildProgressLevel05.png",
+    "bytes": 156896,
+    "sha256": "7c37f09407f5b638be8c2f4ed940d5fc83559d551415dce82a78d3e86aef3f2f",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildProgressLevel06.png",
+    "bytes": 162220,
+    "sha256": "4ce5a99c3926ea1006b6146a0b6057cb105ea08332ba9266798809f85c816537",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildProgressLevel07.png",
+    "bytes": 169855,
+    "sha256": "de0c0071465e183cdff5ee3f8fc0be9bfbeec111087f81912ddad74ff4c23b04",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildProgressLevel08.png",
+    "bytes": 180508,
+    "sha256": "878bb6307cc752e751011a095cd01c3874e1e5630211c8da685d6c328af9f36f",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildProgressLevel09.png",
+    "bytes": 198250,
+    "sha256": "89253bb22e7714dc63e1d6cfa328e686be8d044544d83df06b0b3dbbf1acdb93",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildProgressLevel10.png",
+    "bytes": 231627,
+    "sha256": "8441a23a759e5357a9c13ced745fa753c29ea918ec72b0b4f32f111c052a65a6",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildRegisterSkins.xml",
+    "bytes": 27360,
+    "sha256": "09561c938e8499d1c9ecd06f0194d8d63c4258791989d59f18cb89fe4ddc35ae",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildReputationCity.png",
+    "bytes": 1680709,
+    "sha256": "101d8f67bbb26e7e19b7dcb9dcda013908b3c4f77b846ad625828d02e465a756",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildReputationVillage.png",
+    "bytes": 2241802,
+    "sha256": "8261b707b8684c2c0a53e63cfbc4d5f1e1d927a68cc90bb3a0642be64bac2b37",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildReputationZone.png",
+    "bytes": 2091669,
+    "sha256": "c39aeee5760a5dd01462ef4c40882df5055f9736213823097def0b7181a68e48",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildSidebarBackdrop.png",
+    "bytes": 1927090,
+    "sha256": "648cfbbf11a22ec708a6c54ef50d65a89a010d716677415a1fe5db2d07295983",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildSidebarIcons.png",
+    "bytes": 915169,
+    "sha256": "be35e3e2e3da9045905f8093d6af30069d1a84f865d47a9affb1e65bca7879f1",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/GuildTeamLogo.png",
+    "bytes": 1205665,
+    "sha256": "85bcea518afe07601bb3eb082bd94359f07fe76942809a1fe4894c154556f412",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/LauncherIcons.png",
+    "bytes": 7014,
+    "sha256": "1404dcd99c570f06c356aa5a846e919dab0b72123779d4ae429900ecdd51bbe5",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/LevelFeatureArmour.png",
+    "bytes": 10228,
+    "sha256": "f0fe92e1c4909eb7842652d665036b0f90a4d19929996b1aec60235bd248489a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/LevelFeatureBonuses.png",
+    "bytes": 11101,
+    "sha256": "b04f00c79781f87ff50aec13d2c5c5c625af966cbdb628ef5934847b7832ad09",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/LevelFeatureHouse.png",
+    "bytes": 7916,
+    "sha256": "0ef4b5341b96714c50b8f1a39f49498f1f1d33f4885a345f3c8b0ee363234665",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/LevelFeatureNegotiation.png",
+    "bytes": 6989,
+    "sha256": "1406070d8409e58082cb9cedf3e3aa8d1ccb163ce737535a13d4bc5d92798a51",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/LevelFeatureOffices.png",
+    "bytes": 7311,
+    "sha256": "3d297b64e93b4572ceba3e51f0cf185c50f03e7113329b3866e3d3c4dba7d112",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/LevelFeaturePrestige.png",
+    "bytes": 6836,
+    "sha256": "d7e83e822f24ae7f76f6a03af712110fb67c49829b1725d9c3e66d748a8606c2",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/LevelSun.png",
+    "bytes": 16079,
+    "sha256": "327526383f1672ef48476a66edffbe596d871066f85fc23ef0432ef218550d1a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/LibreCaslonText-OFL.txt",
+    "bytes": 4404,
+    "sha256": "a294245c822c5aa9fd9a9f3189418e99415428be5fecadf797793d5d8f6a3ad3",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "independent-font-OFL-1.1-not-needed-for-DLL-build",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/LibreCaslonText-Regular.ttf",
+    "bytes": 79120,
+    "sha256": "608563055680c5e6639c70449be3956ddbfbf92820acf974a930f1f94aa7f127",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "independent-font-OFL-1.1-not-needed-for-DLL-build",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieAbandonWarning.png",
+    "bytes": 3828,
+    "sha256": "52f9124947e63b9a28d20416402e53bc97ad98a35112e60e0e85e47d4a18ae94",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieArtisan.xml",
+    "bytes": 47389,
+    "sha256": "c52bc4464b6c881124b982eccffbc2e6e4412e858e04785a386bb97dc9e85d91",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieArtisanIcons.png",
+    "bytes": 24672,
+    "sha256": "0f47cd668a8f298ce743df35382f9064520df1d29af6a14cbc4d9f0726eb31f7",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieArtisanSurface.png",
+    "bytes": 392520,
+    "sha256": "ab23b6a5e6ed7180846465ccf2146995cb50ad6bfe86f9c1be6e3b3713d4d366",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieArtisanUI.png",
+    "bytes": 88452,
+    "sha256": "15b01a7a08022e9b9172fde084ca16d5076cfed3492964c55c506077885404f6",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieArtisanWorkshop.png",
+    "bytes": 498504,
+    "sha256": "223efed73123021d4eb234bb7f539435dc8753e1d02eef9f0a7e3ff63d16afc2",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieAutopilot.xml",
+    "bytes": 8063,
+    "sha256": "18e4dd5da91146644a75d48f2e8756fc04939becd3d5a0a6dc05f9faf941210b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBasicPlate76.png",
+    "bytes": 1847776,
+    "sha256": "7186461a6d60d5703adc20f6c05b4aa01ba11cddc2dd6671f3cee3ea98371fd2",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBasicReference76.png",
+    "bytes": 2135790,
+    "sha256": "92d2e142cfde214837a951823b0cdd6bc5dd3b9e3a71e8c7e011e207f41bf39b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBoard77.xml",
+    "bytes": 23619,
+    "sha256": "a52f7d3e90d53d6af57c6e37516d025959fb7468aeae088b66f594331ef62fbc",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingChrome.png",
+    "bytes": 2164,
+    "sha256": "cf2424badc115176e7c230653497a312496894868e9507346f0c73604b62b689",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingClose.png",
+    "bytes": 421,
+    "sha256": "3111ed5f0de172df6795379301a387e42f408a30c882bf62c73177d1391fbd8a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingFuture1.png",
+    "bytes": 962516,
+    "sha256": "cd39d45b21fc98864187d1badb5571dc22dfc9ed29d4dd40d339a9ba89fe8e3a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingFuture2.png",
+    "bytes": 900191,
+    "sha256": "5ce7ad5885bb6236518a9e273676a3d7d5ffee1084cfdc45150a5681fb5dde4b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingFuture3.png",
+    "bytes": 1117939,
+    "sha256": "d012e909201143b553e8194f63c70d1f5478bd63cf25c506b35bc2ea08c28a10",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingFuture4.png",
+    "bytes": 744861,
+    "sha256": "b33b91e68176aee89afb72d8828178bce7a6a2be4b76a936028456f782e2103f",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingFuture5.png",
+    "bytes": 1203705,
+    "sha256": "e7344282f911b882d68e4d9a92c5d479b08c4db504dcf24bb2a2105f50f0c453",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingIcons.png",
+    "bytes": 21326,
+    "sha256": "d70fcc426fb516831d758da5b22ea2317f798a9e2082b4a93acc99eb08d6ac8e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingLock.png",
+    "bytes": 630,
+    "sha256": "39f3137f047a27a5d5b958216014aa08b0e24022b1db339c42b853a6c3a743b0",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingMedallion.png",
+    "bytes": 91200,
+    "sha256": "c7385276bfd43b18196163803c455f85f12f8e128406949003710fb66f35a3ac",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingOfficeCutout.png",
+    "bytes": 1520745,
+    "sha256": "cacd4c410e55e0af73f93c35450b84a6733b2aec61f4e0af50117eae78bd4b7d",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingOfficeScene.png",
+    "bytes": 2624289,
+    "sha256": "e7063bf3c8ca69c9979350aa5ce30e6b8e50ae4f8863334ddbe8b2e845aeeb9e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingPicker.xml",
+    "bytes": 13149,
+    "sha256": "78067018427f149a8b2f7c44eb4071ad9c814e4e0205e2c83b0b93573ebbf1db",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingRing.png",
+    "bytes": 11928,
+    "sha256": "beb6c1037f1255f4ba55b80cdecb19c3013349c67f95b82507acf1e9ee427bda",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingSurface.png",
+    "bytes": 156847,
+    "sha256": "da039b1140e41f7564e27a6d767ec796f6e811ce57d83fc52faa93b2035f96f1",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieBuildingWhite.png",
+    "bytes": 78,
+    "sha256": "803f3b73e9e4960c1b25d25b1dcb493de6cb51a001fbcc7f604e4dfe62c8c26e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieContractIcons.png",
+    "bytes": 23430,
+    "sha256": "184fe89048cb67f1da90917460f8e0251445e52583f18dc4f91882ead7697b93",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieDeveloperSkins.xml",
+    "bytes": 14846,
+    "sha256": "c953ed97c5dfe4d5ae9e9a967742e2977eb49f3cb95a1169290bce304b7f324b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieDeveloperUI.png",
+    "bytes": 6934,
+    "sha256": "41981e138978e3cdcdc1c4aa35e5be2937dfeda3ad796610af6370a5e48c38a7",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieFinanceIcons.png",
+    "bytes": 7294,
+    "sha256": "fb2eedd56c4c8728a97d7fba721875056d3e21880af66b8c349660e1c24e9554",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieGuildFinish.png",
+    "bytes": 18536,
+    "sha256": "5b2dcd3c5870b42d588113ab49097b8b50aacc0e18961d8f1f7c9a45edbb5d85",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieGuildFinish.xml",
+    "bytes": 15910,
+    "sha256": "5fd4767103cc59f7ffb6ef6ccee1bb16fe1c043bb830253d47ca74b7c99dfa0c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieGuildSymbols.png",
+    "bytes": 13567,
+    "sha256": "d1995fd143e3ec6a510e4904daac14cbeb79e30bdad93d31a6c55092a1b30ad0",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieLauncher.xml",
+    "bytes": 23289,
+    "sha256": "254aab535be5b12e1121e2973bed3d75dee53e9c26b1fc935f4a6482f091dbfe",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieLauncherIcons.png",
+    "bytes": 7362,
+    "sha256": "c780838e8b0946fcc47607112d3121ed2b1ea37923ac5648a6793d4686fc429b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieLauncherLogo.png",
+    "bytes": 1019155,
+    "sha256": "bf15d13384493bdb3c18909f239a7f464cf95158f6f35074ffe512b93856eae8",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieLauncherUI.png",
+    "bytes": 29598,
+    "sha256": "881b94ecee546f1342136f5840485ff4d63c913808328d738a2f3801612d0461",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieMainMenuV9.png",
+    "bytes": 2717852,
+    "sha256": "3593d25a1857897411892283a8ebaad26f5986ff192bc6ea990784ec6b55f85b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieManageActions.png",
+    "bytes": 11169,
+    "sha256": "9daf99e59bba142f01eecdbd4f8a79700120118599d4b3929691154bc4e3eb25",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieNegotiation.xml",
+    "bytes": 5488,
+    "sha256": "aeda2ac8ea11efbc6d698e4439c851c1af4987e45bae3ccf5525590e7724520a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieNegotiation74.xml",
+    "bytes": 4703,
+    "sha256": "3911a67922c6895c1342813a7a3a39b1c9acd384728fe731a52c519b86f58557",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieNegotiationPlate74.png",
+    "bytes": 2173964,
+    "sha256": "b1ba628d2d32af8c46ab8d068cd9f4e6701fc8f025a07cdb8e797cb6fbe4ee7c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieNegotiationRedesign.xml",
+    "bytes": 3325,
+    "sha256": "25a3fe2d766f15d9912f7286f40717e3a77113c332ad324e197dcdb3704f6557",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieNegotiationReference74.png",
+    "bytes": 2454550,
+    "sha256": "e2e538cb19325a756eb5b06a4ed73cc1b5d68a7385a11cdac4776f27b7f46794",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieNewsBanner.png",
+    "bytes": 3143317,
+    "sha256": "7629fa225d5de8c6d3968b627cc7f3b856107f510638bb19e71904a378ee3e08",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieNewsIcons.png",
+    "bytes": 17782,
+    "sha256": "d446782bf5eab7decc217659fe800c51f0a5387afbc7b11d449c41f859d99c3e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieNewsSkins.xml",
+    "bytes": 4000,
+    "sha256": "ccb79aac16f6281ea0cdf7dd147105760b850d2e7fa268c6d189f89f946ad05e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieNewsUI.png",
+    "bytes": 432,
+    "sha256": "83cfe222c34c8888985e957cfbf0d302c058f66e493c498cfbcdd81efacc1f4e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieOfficeName.xml",
+    "bytes": 738,
+    "sha256": "96d3de640a7d8af9f02ce8d52d7129957586afef2cf4e3b81ed347a4e8458574",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieOverviewIcons.png",
+    "bytes": 50741,
+    "sha256": "ffb18604575d0961f0096b0cfe0c1d6e1f42d1ae8932ca8909525382e530dd97",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieOverviewSkin.png",
+    "bytes": 7401,
+    "sha256": "d86212c47d71d03c46e9f523270f48cf59a89a58b731e65dc93e7900f44f5cdf",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieOverviewSkins.xml",
+    "bytes": 8423,
+    "sha256": "6fe12553294d405c5dc49e16dd60f7d9bc0293ad5bcc5a98377fcaba67589a17",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenariePayrollIcons.png",
+    "bytes": 23982,
+    "sha256": "306087ecba7efc24f18000284147f6949ee7ccb2689b55609a19264b54717ac4",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenariePersonnel75.xml",
+    "bytes": 6658,
+    "sha256": "02eda06c02b8b249911663c9a57c935da15655afc30f8b5478c9068133832159",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenariePersonnelPlate75.png",
+    "bytes": 1657740,
+    "sha256": "d87904dfe4ca78cb48f3c00343b0a318a49748e8b8061382a42aa55fcac06931",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenariePersonnelReference75.png",
+    "bytes": 1801831,
+    "sha256": "8f269b36297f1d40e3072485bee53e2aa6ac63a8f961642d2d189f8f119b80f6",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenariePopup.xml",
+    "bytes": 519,
+    "sha256": "13dd5fd7acdd84d891346eb122d93b3703b489b76a958832b5e0ff65c5b838af",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenariePopupIcons.png",
+    "bytes": 4754,
+    "sha256": "9ccc8214eb2f2b3c7ca799225be0887a0e03f4d5f95d0b1ca26b7f0e7ae379e2",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieQuestIcons.png",
+    "bytes": 17430,
+    "sha256": "e53d851549147643ce5c49be0da87cf5bcc2fbe716ff00b9f39904fb521d477a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieQuestTabs.png",
+    "bytes": 571,
+    "sha256": "5f87116adc92290bd9a6f94aa3562a43ae3c738fce02be961dfae0b0855d4297",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieQuestTracker.xml",
+    "bytes": 5581,
+    "sha256": "a9bc27c7926697ad1198064189e4c5c279c5b3062ceb99b1fc5028c7b23827b9",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MercenarieUnicodeFonts.xml",
+    "bytes": 500,
+    "sha256": "7551d93b03fc40b6613254a16138f335fadfd93dec98b1bb0467f24ead16b0e9",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MissionReportIcons.png",
+    "bytes": 22037,
+    "sha256": "e3664ac8cddef447eed5876d2981a514f080df3c6b9e17e56b4eba4feb6bc24f",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MissionReportPanorama88.png",
+    "bytes": 2504939,
+    "sha256": "3b8417726d4dd1f6269f30a2c57311a56fc74870154c6e543f592c00f3b6885a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/MissionReportScene.png",
+    "bytes": 2251260,
+    "sha256": "2af8e39bed7ab9b775973d9e161c03bebbedb7a38760ec38876ad4ce22be6041",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans10.xml",
+    "bytes": 613,
+    "sha256": "c1f3555505d548920df87b07a2eb4439aaa371b6c4f351c2129e6e1f40b12b68",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans12.xml",
+    "bytes": 613,
+    "sha256": "510c3e5dc8684f345fe17fd66a3af52f4ee297ced50301c84fce78be9dccd601",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans14.xml",
+    "bytes": 613,
+    "sha256": "387a7b399ff581dec3cffe4f0cc5b4a159c60c881c4db45058014e6b47b00b5a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans16.xml",
+    "bytes": 613,
+    "sha256": "59acdcae720ede1cee6aa7e00de4a39f8030a8e667a80c4af6ee4e2c90fa3cff",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans18.xml",
+    "bytes": 613,
+    "sha256": "483fccfac2070e5310490300d85b045533d441f10deede45509933d7cba32c99",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans20.xml",
+    "bytes": 613,
+    "sha256": "7054e9c71e40d08758e9d3f1770c7d69dead2d919de970aedf278ee8537f5a5a",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans22.xml",
+    "bytes": 613,
+    "sha256": "3f6ee584cb516689dd97fc8006fcad769e2753f200dc7345ecf42562613164b6",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans24.xml",
+    "bytes": 613,
+    "sha256": "4071f54a08c5c2392e426264f138b148e5695a4a2a8e133fedc5a52423cc8ebb",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans26.xml",
+    "bytes": 613,
+    "sha256": "d58e8490bc69b2ae637a2ad10ec4c0417a876cc054461c9687cd2fd48e50be04",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans28.xml",
+    "bytes": 613,
+    "sha256": "f5a8689fca1149470f07ca6ccfc053b841f9c068f4a8a6688d5b4f6b37ddf4e8",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans30.xml",
+    "bytes": 613,
+    "sha256": "e0754c8312f8afa7909d1d714f0a5246143b808dea46341ecbc28b827352faaf",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans32.xml",
+    "bytes": 613,
+    "sha256": "64d259ea725ed987e65af5f275c1184dcd18028452dd6c11e5297ff8c3692866",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans34.xml",
+    "bytes": 613,
+    "sha256": "5457036f20e3d9a15d9baf1d13683bd69f3edccbc7a8ba40e475b7a2cf59ef9e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans36.xml",
+    "bytes": 613,
+    "sha256": "5e9b6fe13a4b207530f428ef90847d235d3412e60e7861c1686116c275fed563",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans38.xml",
+    "bytes": 613,
+    "sha256": "432e0e29c57fc467057e7c983b2676d0abec2196387af4e6fbd1992efed7652b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans40.xml",
+    "bytes": 613,
+    "sha256": "c52368db68a989eb2c979640ddef92f8b13b3af71e41d306bcc3ea13352e34b9",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans42.xml",
+    "bytes": 613,
+    "sha256": "dbcb1e0476c6e082c2efd79088402e96b6bce28417ff76381f25cae7762234e3",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans44.xml",
+    "bytes": 613,
+    "sha256": "da5e4c114d84e9466d32a8daf00d78833a4fddd79486aff8e1a61117d95223f8",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans46.xml",
+    "bytes": 613,
+    "sha256": "8cfc6c530bdd236ff0b8a300cb2c2ea55c6aee0e8184398c18d460df624af7aa",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans48.xml",
+    "bytes": 613,
+    "sha256": "a4285088da266d38d2021f008ff20332706bcec127e8af88041b77b2b08c3fc8",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans50.xml",
+    "bytes": 613,
+    "sha256": "686486aa14c0bbed46d5867044c3b58fbb1ed80faf8dc11fc00f8c762c193f81",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans52.xml",
+    "bytes": 613,
+    "sha256": "00c11d3013b7c07cd60c9d2d2fc997378691fd8e8fbfe02eb8b43ed869b4e04d",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans54.xml",
+    "bytes": 613,
+    "sha256": "fae64d51648031d0fd8282256139e0a161eb7392c1b0b3d00eb904df29d7b17d",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans56.xml",
+    "bytes": 613,
+    "sha256": "04dbe4c2c5ca8441408ec2f2a43490cd1f0dc3b3223f362a2cc7a1a5ce17a7a0",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Sans8.xml",
+    "bytes": 611,
+    "sha256": "24d97f1bfd40c55cf82938bf1a2d58e06ed4e4ea942c5ab2865650857cc93f71",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif10.xml",
+    "bytes": 626,
+    "sha256": "5d62c9ead53eafdee04f4344a68f57227434f85614f90b3588c687eb01eb76f8",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif12.xml",
+    "bytes": 626,
+    "sha256": "96e689ba6fd21acde61fa9d772ce639b3808b40310b1e7690a46b5dcef1a3147",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif14.xml",
+    "bytes": 626,
+    "sha256": "7949a03dddaff0cecc827a6270b3eb6c0ffaaaba9944ee28b373710e7dade54c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif16.xml",
+    "bytes": 626,
+    "sha256": "8c41719849fd8969bcdfbfd1e9a4ee22bfad54ed7d852660a2d0b42230c0a5d1",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif18.xml",
+    "bytes": 626,
+    "sha256": "225b61c55fa5aaf856bf69886a1cf63663cbd1242b1626b0418494231d9433a5",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif20.xml",
+    "bytes": 626,
+    "sha256": "e17f9d90cfd23ddd9ba8e58da84b6a3ef7e4d408f1a74d329ece61e9f89914ea",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif22.xml",
+    "bytes": 626,
+    "sha256": "199c38cf2f59f6798e91ff8a6832fbd69a52ccb0d9c3e1b107b64328cbe04ea2",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif24.xml",
+    "bytes": 626,
+    "sha256": "48a4e6c40b5cf77ad1681b392c8849a59e17defb562fe29aa1c54d15e24b72dc",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif26.xml",
+    "bytes": 626,
+    "sha256": "1693d5676c878bc028efe9f5180ca877868375674f00be2af41d1aae7fb1204e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif28.xml",
+    "bytes": 626,
+    "sha256": "82147601b13ee0beafd8c6b93d3aeb0da0e7b88436ce8259f16293ee72ab22ab",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif30.xml",
+    "bytes": 626,
+    "sha256": "2d996c5bdb787f7f3dc6764ecefef713df83ad6338beef08ee8853e9f77527c6",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif32.xml",
+    "bytes": 626,
+    "sha256": "1fcd036ea05f9f77a3dcbe46248b05237436214633a0620c98c160f24208b87c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif34.xml",
+    "bytes": 626,
+    "sha256": "302e2014dffbef83d343cd2a449e087f2b216e74d36a9fa36788a12ae76a000e",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif36.xml",
+    "bytes": 626,
+    "sha256": "56a98c7182703249f72c526bfa4110505809b40f0c3aeb3876739578ba678a0d",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif38.xml",
+    "bytes": 626,
+    "sha256": "b0ab78d0744935d5a22a11959a6d86548a0b99facf7deecbbc6b2daf32f000f9",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif40.xml",
+    "bytes": 626,
+    "sha256": "0f2f5aa9646238072929006e921e531178ddc5d5d4dd7753a0e9e843417c97e8",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif42.xml",
+    "bytes": 626,
+    "sha256": "3967764b0c400e9bd695efc23c57f8b26bfcfcf62d50553af7ee8babb9bd2ede",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif44.xml",
+    "bytes": 626,
+    "sha256": "62b85223ad138bba1a54fd398e19eea0454563ad961f1cfd592267c7edd43759",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif46.xml",
+    "bytes": 626,
+    "sha256": "b5e61d8325e96c4b2787931c96e7d07820f1eeb3c2362728818e02c7dd8d8086",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif48.xml",
+    "bytes": 626,
+    "sha256": "43eaf09662015dcdbb35e32fce7cb417c1ef3f4a878795dc666133a993536059",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif50.xml",
+    "bytes": 626,
+    "sha256": "66c78fb2913b489153f637160c6fae9c1ec2acccf11e7f00c718c97a1c3d88ca",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif52.xml",
+    "bytes": 626,
+    "sha256": "65146a95021e0932be4a9015e43da6148f1a0b1a2d8b44068d0cc9873904f063",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif54.xml",
+    "bytes": 626,
+    "sha256": "d211e63daa95eb21ac8a141bc95993c830c65d0fa2698dc8085188d486dd6e17",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif56.xml",
+    "bytes": 626,
+    "sha256": "a01c6220c7c4efbe8d1ab3b2d7a283f8d16730be5faa23c69770cd23d6f4271c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/Negotiation74Serif8.xml",
+    "bytes": 624,
+    "sha256": "cf3c379e120528865badfd322a793a34f5ac0329b35aa844efb3638615eeaf89",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/QuestDistance.png",
+    "bytes": 1846,
+    "sha256": "e70db3ef13f0b1ef893b6b94ae7fc21b425012097ae96d10b6bed05607fc6a8d",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/TheMercenarieBookIcons.png",
+    "bytes": 14336,
+    "sha256": "e35b7a8f2d3df2edee1251bc83ebcacdee4262445ca3a4f550c90b5221e19e50",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/gfx/TheMercenarieUI.png",
+    "bytes": 2344,
+    "sha256": "20352ee420535f1a30e18fdde1b4ef0dd7c68a97f3b7b8be78699b36835761b5",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "gui/images/title_screen1.dds",
+    "bytes": 6285008,
+    "sha256": "65d6f1dbdbd07e8b3b9df2f712e45dce562b3ce82fd149ab26fd4e46a14d527b",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "runtime-art-or-compiled-asset-review-original-editable-source-and-rights",
+    "required_for_dll_compilation": false
+  },
+  {
+    "path": "locale/fr_FR/gamedata.po",
+    "bytes": 5061,
+    "sha256": "bdab81c6b4a7bcd9776aaf5fe8c2121dc1fdfbb64652c67b67fd2dc9ed954e3c",
+    "disposition": "Mod/game resource or data: excluded pending provenance, editable-source and redistribution-rights review; required matching runtime package is not reconstructed by this repository",
+    "classification": "editable-runtime-data-review-license-separately",
+    "required_for_dll_compilation": false
+  }
+]

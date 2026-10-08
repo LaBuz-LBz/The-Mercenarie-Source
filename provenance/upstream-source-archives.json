@@ -1,0 +1,26 @@
+[
+  {
+    "name": "KenshiLib-source-v0.4.0.zip",
+    "url": "https://codeload.github.com/BFrizzleFoShizzle/KenshiLib/zip/refs/tags/v0.4.0",
+    "size": 3539599,
+    "sha256": "3b2e88cfd870eac8216e95dbceae594e5440105d4c1f92870073903cfdc808bc"
+  },
+  {
+    "name": "KenshiLib-source-v0.5.0.zip",
+    "url": "https://codeload.github.com/BFrizzleFoShizzle/KenshiLib/zip/refs/tags/v0.5.0",
+    "size": 3568167,
+    "sha256": "5d5de2af1dab331ea52150483bfe535f453b9277d61c3063bab21278c6a04d94"
+  },
+  {
+    "name": "RE_Kenshi-source-v0.3.5.zip",
+    "url": "https://codeload.github.com/BFrizzleFoShizzle/RE_Kenshi/zip/refs/tags/v0.3.5",
+    "size": 1561108,
+    "sha256": "09c2466bee1c3b8060777f9bbd29f6efce5b6f615b5ac8570fd5e4713fb16d1b"
+  },
+  {
+    "name": "boost_1_60_0.tar.bz2",
+    "url": "https://archives.boost.io/release/1.60.0/source/boost_1_60_0.tar.bz2",
+    "size": 76553944,
+    "sha256": "686affff989ac2488f79a97b9479efb9f2abae035b5ed4d8226de6857933fd3b"
+  }
+]

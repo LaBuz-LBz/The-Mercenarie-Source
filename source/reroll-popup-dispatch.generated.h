@@ -1,0 +1,3 @@
+void hideV9Confirmation(){if(v9WidgetLive(v9Confirmation)){MyGUI::InputManager::getInstance().removeWidgetModal(v9Confirmation);v9Confirmation->setVisible(false);}else v9Confirmation=0;v9ConfirmationCallback=0;}
+void answerV9Confirmation(MyGUI::Widget* sender){void (*callback)(int)=v9ConfirmationCallback;int answer=sender?atoi(sender->getUserString("answer").c_str()):0;hideV9Confirmation();if(callback)callback(answer);}
+void closeV9Confirmation(MyGUI::Window*,const std::string&){answerV9Confirmation(0);}

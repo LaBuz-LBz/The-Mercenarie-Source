@@ -1,0 +1,20 @@
+[
+  {
+    "file": "KenshiLib.lib",
+    "url": "https://raw.githubusercontent.com/BFrizzleFoShizzle/KenshiLib_Examples_deps/b566d74bf3d74629cc2fb632a97595b8202993f1/KenshiLib/Libraries/KenshiLib.lib",
+    "local_sha256": "d407bf18c807cd3390643227ca4dc3ee4628fedc520870eee250201c04db311d",
+    "matches_lfs_oid": true
+  },
+  {
+    "file": "MyGUIEngine_x64.lib",
+    "url": "https://raw.githubusercontent.com/BFrizzleFoShizzle/KenshiLib_Examples_deps/b566d74bf3d74629cc2fb632a97595b8202993f1/KenshiLib/Libraries/MyGUIEngine_x64.lib",
+    "local_sha256": "065e42b65440910fd5faf5bb7e52dfb1298ac977d6c18fe164cfd81634e2e83e",
+    "matches_lfs_oid": true
+  },
+  {
+    "file": "OgreMain_x64.lib",
+    "url": "https://raw.githubusercontent.com/BFrizzleFoShizzle/KenshiLib_Examples_deps/b566d74bf3d74629cc2fb632a97595b8202993f1/KenshiLib/Libraries/OgreMain_x64.lib",
+    "local_sha256": "97db9603acaa5ff19fa58f73bf7362e7298f99e96b36243563beba0334337928",
+    "matches_lfs_oid": true
+  }
+]

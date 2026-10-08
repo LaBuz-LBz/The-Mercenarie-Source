@@ -1,0 +1,19 @@
+{
+  "cleanup": {
+    "input": "register-refonte/work/v9-cleanup-import-20261003/fcs-inventory.json",
+    "generator": "register-refonte/work/v9-cleanup-import-20261003/add-coverage.py:6-8",
+    "sha256": "ec0c57dcac5f2aea010ece5318c82dd1fd811de31157b12d969019a21b2192b8"
+  },
+  "estate": {
+    "input": "register-refonte/docs/real-estate-v9-fcs-audit.json",
+    "projection": "Only read fields retained; not original audit",
+    "sha256": "76098c17c0501a22d418efbc368897c24446df5a2b8a9d82bfa3a65f08876a8d"
+  },
+  "localization": {
+    "searched_catalogues": 629,
+    "recovered_english_entries": 2794,
+    "historical_catalogues": "register-refonte/work/v9-contract-board-20261007/assets/Localization",
+    "direct_patch_evidence": "register-refonte/work/v9-contract-board-20261007/prepare.py:56-57",
+    "complete_historical_pipeline_recovered": false
+  }
+}

@@ -1,0 +1,117 @@
+--- upstream/Include/kenshi/Tasker.h
++++ local/Include/kenshi/Tasker.h
+@@ -8,6 +8,8 @@
+ class AI;
+ 
+ // TODO move?
++#ifndef TM_KENSHI_TASK_PRIORITY_DEFINED
++#define TM_KENSHI_TASK_PRIORITY_DEFINED
+ enum taskPriority
+ {
+     TP_JUST_ACTION,
+@@ -17,6 +19,7 @@
+     TP_OBEDIENCE,
+     TP_MAX_SIZE
+ };
++#endif
+ 
+ // TODO move?
+ class TaskStateData
+@@ -185,4 +188,4 @@
+     bool isSubTaskerComplete(AI* ai);// protected RVA = 0x50C160
+     // no_addr void __local_vftable_ctor_closure();// public
+     // virtual void * __vecDelDtor(unsigned int _a1) = 0;// public vtable offset = 0x0 missing arg names
+-};+};
+--- upstream/Include/mygui/MyGUI_Diagnostic.h
++++ local/Include/mygui/MyGUI_Diagnostic.h
+@@ -21,7 +21,7 @@
+ #define MYGUI_LOG_FILENAME "MyGUI.log"
+ #define MYGUI_LOG(level, text) MYGUI_LOGGING(MYGUI_LOG_SECTION, level, text)
+ 
+-#define MYGUI_BASE_EXCEPT(desc, src)	 throw MyGUI::Exception(desc, src, __FILE__, __LINE__);
++#define MYGUI_BASE_EXCEPT(desc, src)	 throw MyGUI::Exception(desc, src, "MyGUI", __LINE__);
+ 
+ // MSVC specific: sets the breakpoint
+ #if MYGUI_COMPILER == MYGUI_COMPILER_MSVC
+--- upstream/Include/mygui/MyGUI_LogManager.h
++++ local/Include/mygui/MyGUI_LogManager.h
+@@ -17,7 +17,7 @@
+ {
+ 
+ #define MYGUI_LOGGING(section, level, text) \
+-		MyGUI::LogManager::getInstance().log(section, MyGUI::LogLevel::level, MyGUI::LogStream() << text << MyGUI::LogStream::End(), __FILE__, __LINE__)
++		MyGUI::LogManager::getInstance().log(section, MyGUI::LogLevel::level, MyGUI::LogStream() << text << MyGUI::LogStream::End(), "MyGUI", __LINE__)
+ 
+ 	class ConsoleLogListener;
+ 	class FileLogListener;
+--- upstream/Include/kenshi/AI/AITaskSystem.h
++++ local/Include/kenshi/AI/AITaskSystem.h
+@@ -84,6 +84,8 @@
+ };
+ 
+ // TODO move?
++#ifndef TM_KENSHI_TASK_PRIORITY_DEFINED
++#define TM_KENSHI_TASK_PRIORITY_DEFINED
+ enum taskPriority
+ {
+     TP_JUST_ACTION,
+@@ -93,6 +95,7 @@
+     TP_OBEDIENCE,
+     TP_MAX_SIZE
+ };
++#endif
+ 
+ class OrdersReceiver : public Ogre::GeneralAllocatedObject
+ {
+@@ -303,4 +306,4 @@
+     float runGOAP(Tasker* task, bool _a2, bool playerOrder);// public RVA = 0x50F690
+     // no_addr class AITaskSytem & operator=(const class AITaskSytem & _a1);// public missing arg names
+     // virtual void * __vecDelDtor(unsigned int _a1) = 0;// public vtable offset = 0x0 missing arg names
+-};+};
+--- upstream/Include/kenshi/gui/MainBarGUI.h
++++ local/Include/kenshi/gui/MainBarGUI.h
+@@ -12,6 +12,7 @@
+ class DatapanelGUI;
+ class PortraitMainItemBox;
+ class DatapanelGUI;
++class MainBarGUI;
+ 
+ // TODO move?
+ class MainTabPortraitPlatoon : public Ogre::GeneralAllocatedObject
+--- upstream/Include/kenshi/gui/ManagementScreen.h
++++ local/Include/kenshi/gui/ManagementScreen.h
+@@ -71,7 +71,7 @@
+     void notifyEndDrop(wraps::BaseLayout* sender, wraps::DDItemInfo info, bool result);// protected RVA = 0x2D3CB0
+     void notifyRemoved(int index);// protected RVA = 0x2D3200
+     T1* data; // 0x118 Member
+-    virtual ~ReorderableList() override;// public RVA = 0x2D47E0 vtable offset = 0x0
++    virtual ~ReorderableList();// public RVA = 0x2D47E0 vtable offset = 0x0
+     // TODO destructor NV ~ReorderableList();// public RVA = 0x2D47E0 vtable offset = 0x0
+     // no_addr class ReorderableList<std::deque<CraftingItem,std::allocator<CraftingItem> >,CraftingQueue::CraftItemViewData> & operator=(const class ReorderableList<std::deque<CraftingItem,std::allocator<CraftingItem> >,CraftingQueue::CraftItemViewData> & _a1);// public missing arg names
+     // virtual void * __vecDelDtor(unsigned int _a1) = 0;// public vtable offset = 0x0 missing arg names
+--- upstream/Include/kenshi/util/lektor.h
++++ local/Include/kenshi/util/lektor.h
+@@ -24,7 +24,10 @@
+     const_iterator end()   const { return stuff + count; }
+ 
+     T& at(uint32_t index) {
+-        assert(stuff && index < count);
++        // Same VC assertion and condition, with a portable diagnostic filename.
++#ifndef NDEBUG
++        (void)((!!(stuff && index < count)) || (_wassert(L"stuff && index < count", L"lektor.h", __LINE__), 0));
++#endif
+         return stuff[index];
+     }
+ 
+@@ -33,7 +36,10 @@
+     }
+ 
+     const T& operator[](uint32_t index) const {
+-        assert(stuff && index < count);
++        // Same VC assertion and condition, with a portable diagnostic filename.
++#ifndef NDEBUG
++        (void)((!!(stuff && index < count)) || (_wassert(L"stuff && index < count", L"lektor.h", __LINE__), 0));
++#endif
+         return stuff[index];
+     }
+ 

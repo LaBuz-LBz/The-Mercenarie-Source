@@ -1,0 +1,25 @@
+{
+  "source-sha256.json": {
+    "files": 395,
+    "mismatches": []
+  },
+  "dependency-sha256.json": {
+    "files": 12900,
+    "mismatches": []
+  },
+  "security": {
+    "files": 13348,
+    "flagged": [],
+    "limits": "Pattern checks are not proof of absence of all secrets; third-party public copyright/contact notices retained."
+  },
+  "generator_check": {
+    "three_headers_byte_exact": true,
+    "source_modified": false,
+    "localization_historical_pipeline_complete": false
+  },
+  "recompile": {
+    "rerun": false,
+    "reason": "All 395 source and 12900 dependency input hashes unchanged; previous isolated build still applicable. New regeneration checker passed."
+  },
+  "owner_confirmation": "Build V9-CONTRACT-BOARD-20261008-109 is V9 distributed to players, explicitly confirmed 2026-10-08."
+}

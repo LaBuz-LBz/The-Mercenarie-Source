@@ -1,0 +1,15 @@
+{
+  "build_id": "V9-CONTRACT-BOARD-20261008-109",
+  "status": "latest-local-development-build; distribution to players not verified",
+  "dll_sha256": "3f5e35aca29d8685bf2e583570ed50d1ad0518d87115302ce6c978a2c84df423",
+  "source_file_count": 395,
+  "source_matches_original_receipt": true,
+  "runtime_verified": {
+    "RE_Kenshi": "0.3.5",
+    "KenshiLib": "0.5.0"
+  },
+  "link_sdk": "mixed snapshot; KenshiLib.lib matches v0.4.0; see SDK provenance",
+  "proposed_tag": "v9-dev.109",
+  "tag_created": false,
+  "published": false
+}

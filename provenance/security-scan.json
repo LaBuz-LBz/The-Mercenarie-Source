@@ -1,0 +1,11 @@
+{
+  "files_scanned": 13331,
+  "method": "UTF-8 pattern scan including binary byte strings; private keys, known token formats, credential assignments, personal paths, email addresses",
+  "findings_by_category": {
+    "email": 210
+  },
+  "non_email_findings": [],
+  "email_locations_in_project_source": [],
+  "limitations": "Pattern scan is not an exhaustive security audit. Public upstream contributor contacts are retained, not treated as leaked secrets. Build outputs/logs and private verification are excluded from the source archive.",
+  "binary_utf16_personal_path_findings": []
+}

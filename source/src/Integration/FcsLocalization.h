@@ -1,0 +1,146 @@
+﻿#pragma once
+#include <kenshi/GameWorld.h>
+#include <kenshi/GameData.h>
+#include <kenshi/Dialogue.h>
+#include "../../Localization.h"
+
+// Engine adapter: records and cached dialogue text are updated in historical order.
+// The caller owns the once-per-world/language guard. No duplicate calls are removed.
+namespace MercenarieFcsLocalization {
+    inline void setLocalizedRecord(GameWorld* ou, bool gMercenarieEnglish, const char* id, itemType type, const char* frenchName, const char* englishName, const char* field = 0, const char* frenchValue = 0, const char* englishValue = 0)
+    {
+        if (!ou) return;
+        GameData* data = ou->gamedata.getData(id, type);
+        if (!data) return;
+        data->name = gMercenarieEnglish ? englishName : frenchName;
+        if (field && frenchValue && englishValue)
+        {
+            data->sdata[field] = gMercenarieEnglish ? englishValue : frenchValue;
+            if(type==DIALOGUE_LINE&&std::string(field)=="text0"){
+                DialogLineData* cached=DialogDataManager::getData(data);
+                if(cached&&cached->texts&&cached->lineCount>0)cached->texts[0]=gMercenarieEnglish?englishValue:frenchValue;
+            }
+        }
+    }
+
+    inline void apply(GameWorld* ou, bool gMercenarieEnglish)
+    {
+        setLocalizedRecord(ou,gMercenarieEnglish,"880137-Guild Escort Contracts.mod",BUILDING,Loc::text("v8.book.name"),Loc::text("v8.book.name"),"Description",Loc::text("v8.book.description"),Loc::text("v8.book.description"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981110-Guild Escort Contracts.mod",WEAPON_MANUFACTURER,Loc::text("v8.forge.name"),Loc::text("v8.forge.name"),"company description",Loc::text("v8.forge.description"),Loc::text("v8.forge.description"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981111-Guild Escort Contracts.mod",WEAPON_MANUFACTURER,Loc::text("v8.forge.name"),Loc::text("v8.forge.name"),"company description",Loc::text("v8.forge.description"),Loc::text("v8.forge.description"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981200-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.0"),Loc::text("v8.grade.0"),"description",Loc::text("v8.grade.dead"),Loc::text("v8.grade.dead"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981201-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.1"),Loc::text("v8.grade.1"),"description",Loc::text("v8.grade.rusting"),Loc::text("v8.grade.rusting"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981202-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.2"),Loc::text("v8.grade.2"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981203-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.3"),Loc::text("v8.grade.3"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981204-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.4"),Loc::text("v8.grade.4"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981205-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.5"),Loc::text("v8.grade.5"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981206-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.6"),Loc::text("v8.grade.6"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981207-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.7"),Loc::text("v8.grade.7"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981208-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.8"),Loc::text("v8.grade.8"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981209-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.9"),Loc::text("v8.grade.9"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981210-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.10"),Loc::text("v8.grade.10"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981211-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.11"),Loc::text("v8.grade.11"));
+        setLocalizedRecord(ou,gMercenarieEnglish,"981212-Guild Escort Contracts.mod",MATERIAL_SPECS_WEAPON,Loc::text("v8.grade.12"),Loc::text("v8.grade.12"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "981100-Guild Escort Contracts.mod",WEAPON,Loc::text("equipment.guild_katana.name"),Loc::text("equipment.guild_katana.name"),"description",Loc::text("equipment.guild_katana.description"),Loc::text("equipment.guild_katana.description"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "981101-Guild Escort Contracts.mod",WEAPON,Loc::text("equipment.guild_daisho.name"),Loc::text("equipment.guild_daisho.name"),"description",Loc::text("equipment.guild_daisho.description"),Loc::text("equipment.guild_daisho.description"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "980010-Guild Escort Contracts.mod",ARMOUR,Loc::text("equipment.guild_martial_bindings.name"),Loc::text("equipment.guild_martial_bindings.name"),"description",Loc::text("equipment.guild_martial_bindings.description"),Loc::text("equipment.guild_martial_bindings.description"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880017-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.open_the_contract_board_directly"),Loc::text("ui.open_the_contract_board_directly"),"text0",Loc::text("ui.i_am_looking_for_a_contract"),Loc::text("ui.i_am_looking_for_a_contract"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880005-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.bartender_greeting_and_contracts"),Loc::text("ui.bartender_greeting_and_contracts"),"text0",Loc::text("ui.can_i_do_something_for_you_drifter"),Loc::text("ui.can_i_do_something_for_you_drifter"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880060-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.pause_escort"),Loc::text("ui.pause_escort"),"text0",Loc::text("ui.let_us_wait_here_for_a_moment"),Loc::text("ui.let_us_wait_here_for_a_moment"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880061-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.resume_escort"),Loc::text("ui.resume_escort"),"text0",Loc::text("ui.we_can_continue_on_our_way"),Loc::text("ui.we_can_continue_on_our_way"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880062-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.follow_conversation_partner"),Loc::text("ui.follow_conversation_partner"),"text0",Loc::text("ui.follow_me"),Loc::text("ui.follow_me"));
+        // Keep these IDs aligned with New-EscortVariant in build-fcs.ps1.
+        // The former 020/021/... values did not exist, leaving the English FCS
+        // defaults visible even when Kenshi was configured in French.
+        const char* greetingIds[]={"880026-Guild Escort Contracts.mod","880034-Guild Escort Contracts.mod","880044-Guild Escort Contracts.mod"};
+        const char* introIds[]={"880027-Guild Escort Contracts.mod","880035-Guild Escort Contracts.mod","880045-Guild Escort Contracts.mod"};
+        const char* confirmIds[]={"880028-Guild Escort Contracts.mod","880036-Guild Escort Contracts.mod","880046-Guild Escort Contracts.mod"};
+        const char* negotiationIds[]={"880029-Guild Escort Contracts.mod","880039-Guild Escort Contracts.mod","880049-Guild Escort Contracts.mod"};
+        for(int i=0;i<3;++i){
+            setLocalizedRecord(ou, gMercenarieEnglish, greetingIds[i],DIALOGUE_LINE,Loc::text("ui.first_client_meeting"),Loc::text("ui.first_client_meeting"),"text0",Loc::text("ui.are_you_the_company_sent_by_the_bartender"),Loc::text("ui.are_you_the_company_sent_by_the_bartender"));
+            setLocalizedRecord(ou, gMercenarieEnglish, introIds[i],DIALOGUE_LINE,Loc::text("ui.guild_introduction"),Loc::text("ui.guild_introduction"),"text0",Loc::text("ui.hello_we_are_the_company_hired_through_the_bartender"),Loc::text("ui.hello_we_are_the_company_hired_through_the_bartender"));
+            setLocalizedRecord(ou, gMercenarieEnglish, confirmIds[i],DIALOGUE_LINE,Loc::text("ui.agreement_to_discuss"),Loc::text("ui.agreement_to_discuss"),"text0",Loc::text("ui.very_well_let_us_discuss_the_terms"),Loc::text("ui.very_well_let_us_discuss_the_terms"));
+            setLocalizedRecord(ou, gMercenarieEnglish, negotiationIds[i],DIALOGUE_LINE,Loc::text("ui.open_negotiation"),Loc::text("ui.open_negotiation"),"text0",Loc::text("ui.let_us_discuss_the_terms"),Loc::text("ui.let_us_discuss_the_terms"));
+        }
+        setLocalizedRecord(ou, gMercenarieEnglish, "880130-Guild Escort Contracts.mod",BUILDING,Loc::text("ui.client_chair"),Loc::text("ui.client_chair"),"Description",Loc::text("ui.a_backed_chair_reserved_for_the_main_client_offering"),Loc::text("ui.a_backed_chair_reserved_for_the_main_client_offering"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880131-Guild Escort Contracts.mod",BUILDING,Loc::text("ui.waiting_chair"),Loc::text("ui.waiting_chair"),"Description",Loc::text("ui.a_backed_chair_reserved_for_visitors_and_companions_each"),Loc::text("ui.a_backed_chair_reserved_for_visitors_and_companions_each"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880133-Guild Escort Contracts.mod",BUILDING,Loc::text("ui.tax_collector_chair"),Loc::text("ui.tax_collector_chair"),"Description",Loc::text("ui.a_dedicated_desk_chair_where_a_visiting_tax_collector"),Loc::text("ui.a_dedicated_desk_chair_where_a_visiting_tax_collector"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880134-Guild Escort Contracts.mod",BUILDING,Loc::text("v8.mission_table.name"),Loc::text("v8.mission_table.name"),"Description",Loc::text("v8.mission_table.description"),Loc::text("v8.mission_table.description"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880232-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.fiscal_collector_greeting"),Loc::text("ui.fiscal_collector_greeting"),"text0",Loc::text("ui.i_represent_the_tax_authority_i_am_here_to"),Loc::text("ui.i_represent_the_tax_authority_i_am_here_to"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880234-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.ask_fiscal_amount"),Loc::text("ui.ask_fiscal_amount"),"text0",Loc::text("ui.very_well_how_much_do_i_owe_you"),Loc::text("ui.very_well_how_much_do_i_owe_you"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880235-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.ask_fiscal_calculation"),Loc::text("ui.ask_fiscal_calculation"),"text0",Loc::text("ui.explain_how_this_amount_was_calculated"),Loc::text("ui.explain_how_this_amount_was_calculated"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880236-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.ask_fiscal_extension"),Loc::text("ui.ask_fiscal_extension"),"text0",Loc::text("ui.i_do_not_have_that_amount_right_now"),Loc::text("ui.i_do_not_have_that_amount_right_now"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880237-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.refuse_fiscal_payment"),Loc::text("ui.refuse_fiscal_payment"),"text0",Loc::text("ui.i_refuse_to_pay"),Loc::text("ui.i_refuse_to_pay"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880238-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.leave_fiscal_collector"),Loc::text("ui.leave_fiscal_collector"),"text0",Loc::text("ui.i_will_come_back_to_you"),Loc::text("ui.i_will_come_back_to_you"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880132-Guild Escort Contracts.mod",RESEARCH,Loc::text("ui.guild_house_furniture"),Loc::text("ui.guild_house_furniture"),"description",Loc::text("ui.unlocks_the_seating_required_to_identify_and_operate_a"),Loc::text("ui.unlocks_the_seating_required_to_identify_and_operate_a"));
+        setLocalizedRecord(ou,gMercenarieEnglish,GuildLevel3Access::researchId(),RESEARCH,Loc::text("v8.book.name"),Loc::text("v8.book.name"),"description",Loc::text("guild.level3.delegation.body"),Loc::text("guild.level3.delegation.body"));
+        const char* profileIds[]={"880100-Guild Escort Contracts.mod","880102-Guild Escort Contracts.mod","880104-Guild Escort Contracts.mod","880106-Guild Escort Contracts.mod","880108-Guild Escort Contracts.mod","880110-Guild Escort Contracts.mod","880120-Guild Escort Contracts.mod","880071-Guild Escort Contracts.mod","880072-Guild Escort Contracts.mod"};
+        const char* profileFr[]={Loc::text("ui.civilian"),Loc::text("ui.merchant"),Loc::text("ui.soldier"),Loc::text("ui.family"),Loc::text("ui.mercenary_squad"),Loc::text("ui.noble"),Loc::text("ui.lead_scientist"),Loc::text("ui.guild_caravan_master"),Loc::text("ui.guild_caravan_merchant")};
+        const char* profileEn[]={Loc::text("ui.civilian"),Loc::text("ui.merchant"),Loc::text("ui.soldier"),Loc::text("ui.family"),Loc::text("ui.mercenary_squad"),Loc::text("ui.noble"),Loc::text("ui.lead_scientist"),Loc::text("ui.guild_caravan_master"),Loc::text("ui.guild_caravan_merchant")};
+        for(int i=0;i<9;++i)setLocalizedRecord(ou, gMercenarieEnglish, profileIds[i],CHARACTER,profileFr[i],profileEn[i]);
+        setLocalizedRecord(ou, gMercenarieEnglish, "880112-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.family_member"),Loc::text("ui.family_member"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880113-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.mercenary_squad_member"),Loc::text("ui.mercenary_squad_member"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880122-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.scientist"),Loc::text("ui.scientist"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880009-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.traveler_to_world_s_end"),Loc::text("ui.traveler_to_world_s_end"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880031-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.traveler_to_mongrel"),Loc::text("ui.traveler_to_mongrel"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880041-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.traveler_to_black_scratch"),Loc::text("ui.traveler_to_black_scratch"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880050-Guild Escort Contracts.mod",FACTION,Loc::text("ui.mission_escort"),Loc::text("ui.mission_escort"));
+        // Contenu fusionne de The Guild : les enregistrements d'origine avaient
+        // des noms francais en dur. On traduit ici noms ET descriptions afin que
+        // l'atelier, le commerce, la recherche et l'inventaire suivent la langue.
+        struct LocalizedEquipment{const char* id;itemType type;const char* fr;const char* en;const char* frDescription;const char* enDescription;};
+        const LocalizedEquipment equipment[]={
+            {"910002-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_chestplate"),Loc::text("ui.guild_chestplate"),Loc::text("ui.a_sturdy_chestplate_bearing_the_guild_colours"),Loc::text("ui.a_sturdy_chestplate_bearing_the_guild_colours")},
+            {"910004-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_pants"),Loc::text("ui.guild_pants"),Loc::text("ui.reinforced_trousers_from_the_guild_uniform"),Loc::text("ui.reinforced_trousers_from_the_guild_uniform")},
+            {"910005-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_t_shirt"),Loc::text("ui.guild_t_shirt"),Loc::text("ui.an_undershirt_bearing_the_guild_colours"),Loc::text("ui.an_undershirt_bearing_the_guild_colours")},
+            {"910012-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_mask"),Loc::text("ui.guild_mask"),Loc::text("ui.a_distinctive_black_mask_worn_by_guild_members"),Loc::text("ui.a_distinctive_black_mask_worn_by_guild_members")},
+            {"910007-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_helmet"),Loc::text("ui.guild_helmet"),Loc::text("ui.the_guild_s_standard_protective_helmet"),Loc::text("ui.the_guild_s_standard_protective_helmet")},
+            {"910009-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_boots"),Loc::text("ui.guild_boots"),Loc::text("ui.plated_boots_designed_for_long_journeys"),Loc::text("ui.plated_boots_designed_for_long_journeys")},
+            {"920002-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_chestplate_sergeant"),Loc::text("ui.guild_chestplate_sergeant"),Loc::text("ui.a_chestplate_reserved_for_guild_sergeants"),Loc::text("ui.a_chestplate_reserved_for_guild_sergeants")},
+            {"920006-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_helmet_sergeant"),Loc::text("ui.guild_helmet_sergeant"),Loc::text("ui.a_helmet_reserved_for_guild_sergeants"),Loc::text("ui.a_helmet_reserved_for_guild_sergeants")},
+            {"920008-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_boots_sergeant"),Loc::text("ui.guild_boots_sergeant"),Loc::text("ui.boots_reserved_for_guild_sergeants"),Loc::text("ui.boots_reserved_for_guild_sergeants")},
+            {"930002-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_chestplate_leader"),Loc::text("ui.guild_chestplate_leader"),Loc::text("ui.a_prestigious_chestplate_reserved_for_the_guild_leader"),Loc::text("ui.a_prestigious_chestplate_reserved_for_the_guild_leader")},
+            {"930006-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_helmet_leader"),Loc::text("ui.guild_helmet_leader"),Loc::text("ui.a_prestigious_helmet_reserved_for_the_guild_leader"),Loc::text("ui.a_prestigious_helmet_reserved_for_the_guild_leader")},
+            {"930008-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_boots_leader"),Loc::text("ui.guild_boots_leader"),Loc::text("ui.prestigious_boots_reserved_for_the_guild_leader"),Loc::text("ui.prestigious_boots_reserved_for_the_guild_leader")},
+            {"990002-Holy Nation Mercenary Plastron.mod",LIMB_REPLACEMENT,Loc::text("ui.guild_robotic_arm_left"),Loc::text("ui.guild_robotic_arm_left"),Loc::text("ui.a_left_robotic_arm_bearing_the_guild_colours"),Loc::text("ui.a_left_robotic_arm_bearing_the_guild_colours")},
+            {"990003-Holy Nation Mercenary Plastron.mod",LIMB_REPLACEMENT,Loc::text("ui.guild_robotic_arm_right"),Loc::text("ui.guild_robotic_arm_right"),Loc::text("ui.a_right_robotic_arm_bearing_the_guild_colours"),Loc::text("ui.a_right_robotic_arm_bearing_the_guild_colours")},
+            {"980001-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_service_vest"),Loc::text("ui.guild_service_vest"),Loc::text("ui.a_light_vest_worn_by_guild_personnel"),Loc::text("ui.a_light_vest_worn_by_guild_personnel")},
+            {"980003-Holy Nation Mercenary Plastron.mod",ARMOUR,Loc::text("ui.guild_service_pants"),Loc::text("ui.guild_service_pants"),Loc::text("ui.light_trousers_worn_by_guild_personnel"),Loc::text("ui.light_trousers_worn_by_guild_personnel")}
+        };
+        for(unsigned int i=0;i<sizeof(equipment)/sizeof(equipment[0]);++i)setLocalizedRecord(ou, gMercenarieEnglish, equipment[i].id,equipment[i].type,equipment[i].fr,equipment[i].en,"description",equipment[i].frDescription,equipment[i].enDescription);
+        struct LocalizedName{const char* id;itemType type;const char* fr;const char* en;};
+        const LocalizedName mergedNames[]={
+            {"910001-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.guild_chestplate_material"),Loc::text("ui.guild_chestplate_material")},{"910003-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.guild_plated_pants_material"),Loc::text("ui.guild_plated_pants_material")},{"910010-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.guild_samurai_pants_material"),Loc::text("ui.guild_samurai_pants_material")},{"910011-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.guild_black_mask_material"),Loc::text("ui.guild_black_mask_material")},{"910006-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.guild_helmet_material"),Loc::text("ui.guild_helmet_material")},{"910008-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.guild_boots_material"),Loc::text("ui.guild_boots_material")},
+            {"920001-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.sergeant_chestplate_material"),Loc::text("ui.sergeant_chestplate_material")},{"920005-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.sergeant_helmet_material"),Loc::text("ui.sergeant_helmet_material")},{"920007-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.sergeant_boots_material"),Loc::text("ui.sergeant_boots_material")},{"930001-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.leader_chestplate_material"),Loc::text("ui.leader_chestplate_material")},{"930005-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.leader_helmet_material"),Loc::text("ui.leader_helmet_material")},{"930007-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.leader_boots_material"),Loc::text("ui.leader_boots_material")},{"990001-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.guild_robotic_arm_material"),Loc::text("ui.guild_robotic_arm_material")},{"980002-Holy Nation Mercenary Plastron.mod",MATERIAL_SPECS_CLOTHING,Loc::text("ui.guild_service_pants_material"),Loc::text("ui.guild_service_pants_material")},
+            {"970001-Holy Nation Mercenary Plastron.mod",VENDOR_LIST,Loc::text("ui.guild_vendor_stock"),Loc::text("ui.guild_vendor_stock")},{"970002-Holy Nation Mercenary Plastron.mod",CHARACTER,Loc::text("ui.guild_merchant"),Loc::text("ui.guild_merchant")},{"970003-Holy Nation Mercenary Plastron.mod",SQUAD_TEMPLATE,Loc::text("ui.travelling_guild_vendor_fishing_village"),Loc::text("ui.travelling_guild_vendor_fishing_village")},
+            {"940001-Holy Nation Mercenary Plastron.mod",RESEARCH,Loc::text("ui.guild_armour"),Loc::text("ui.guild_armour")},{"940002-Holy Nation Mercenary Plastron.mod",RESEARCH,Loc::text("ui.guild_armour_sergeant"),Loc::text("ui.guild_armour_sergeant")},{"940003-Holy Nation Mercenary Plastron.mod",RESEARCH,Loc::text("ui.guild_armour_leader"),Loc::text("ui.guild_armour_leader")},
+            {"880202-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.united_cities_tax_collector"),Loc::text("ui.united_cities_tax_collector")},{"880203-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.mercenary_guild_tax_collector"),Loc::text("ui.mercenary_guild_tax_collector")},{"880204-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.united_cities_collection_soldier"),Loc::text("ui.united_cities_collection_soldier")},{"880205-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.mercenary_guild_collection_soldier"),Loc::text("ui.mercenary_guild_collection_soldier")}
+        };
+        for(unsigned int i=0;i<sizeof(mergedNames)/sizeof(mergedNames[0]);++i)setLocalizedRecord(ou, gMercenarieEnglish, mergedNames[i].id,mergedNames[i].type,mergedNames[i].fr,mergedNames[i].en);
+        setLocalizedRecord(ou, gMercenarieEnglish, "940001-Holy Nation Mercenary Plastron.mod",RESEARCH,Loc::text("ui.guild_armour"),Loc::text("ui.guild_armour"),"description",Loc::text("ui.unlocks_the_guild_s_standard_clothing_and_armour"),Loc::text("ui.unlocks_the_guild_s_standard_clothing_and_armour"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "940002-Holy Nation Mercenary Plastron.mod",RESEARCH,Loc::text("ui.guild_armour_sergeant"),Loc::text("ui.guild_armour_sergeant"),"description",Loc::text("ui.unlocks_equipment_reserved_for_guild_sergeants"),Loc::text("ui.unlocks_equipment_reserved_for_guild_sergeants"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "940003-Holy Nation Mercenary Plastron.mod",RESEARCH,Loc::text("ui.guild_armour_leader"),Loc::text("ui.guild_armour_leader"),"description",Loc::text("ui.unlocks_the_prestigious_equipment_of_the_guild_leader"),Loc::text("ui.unlocks_the_prestigious_equipment_of_the_guild_leader"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "970005-Holy Nation Mercenary Plastron.mod",DIALOGUE_LINE,Loc::text("ui.guild_merchant_greeting"),Loc::text("ui.guild_merchant_greeting"),"text0",Loc::text("ui.what_kind_of_guild_equipment_are_you_looking_for"),Loc::text("ui.what_kind_of_guild_equipment_are_you_looking_for"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "970006-Holy Nation Mercenary Plastron.mod",DIALOGUE_LINE,Loc::text("ui.buy_guild_armour_and_shirts"),Loc::text("ui.buy_guild_armour_and_shirts"),"text0",Loc::text("ui.i_would_like_to_buy_armour"),Loc::text("ui.i_would_like_to_buy_armour"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "970013-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.buy_guild_helmets_and_masks"),Loc::text("ui.buy_guild_helmets_and_masks"),"text0",Loc::text("ui.i_would_like_to_buy_a_helmet"),Loc::text("ui.i_would_like_to_buy_a_helmet"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "970014-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.buy_guild_trousers_and_boots"),Loc::text("ui.buy_guild_trousers_and_boots"),"text0",Loc::text("ui.i_would_like_to_buy_trousers"),Loc::text("ui.i_would_like_to_buy_trousers"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "970007-Holy Nation Mercenary Plastron.mod",DIALOGUE_LINE,Loc::text("ui.leave_guild_trade_reply"),Loc::text("ui.leave_guild_trade"),"text0",Loc::text("ui.no_thank_you"),Loc::text("ui.no_thank_you"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880200-Guild Escort Contracts.mod",FACTION,Loc::text("ui.united_cities_tax_enforcement"),Loc::text("ui.united_cities_tax_enforcement"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880201-Guild Escort Contracts.mod",FACTION,Loc::text("ui.mercenary_guild_tax_enforcement"),Loc::text("ui.mercenary_guild_tax_enforcement"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880202-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.united_cities_tax_collector"),Loc::text("ui.united_cities_tax_collector"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880203-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.mercenary_guild_tax_collector"),Loc::text("ui.mercenary_guild_tax_collector"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880204-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.united_cities_collection_soldier"),Loc::text("ui.united_cities_collection_soldier"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "880205-Guild Escort Contracts.mod",CHARACTER,Loc::text("ui.mercenary_guild_collection_soldier"),Loc::text("ui.mercenary_guild_collection_soldier"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "970005-Holy Nation Mercenary Plastron.mod",DIALOGUE_LINE,Loc::text("ui.guild_merchant_greeting"),Loc::text("ui.guild_merchant_greeting"),"text0",Loc::text("ui.what_kind_of_guild_equipment_are_you_looking_for"),Loc::text("ui.what_kind_of_guild_equipment_are_you_looking_for"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "970006-Holy Nation Mercenary Plastron.mod",DIALOGUE_LINE,Loc::text("ui.buy_guild_armour_and_shirts"),Loc::text("ui.buy_guild_armour_and_shirts"),"text0",Loc::text("ui.i_would_like_to_buy_armour"),Loc::text("ui.i_would_like_to_buy_armour"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "970013-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.buy_guild_helmets_and_masks"),Loc::text("ui.buy_guild_helmets_and_masks"),"text0",Loc::text("ui.i_would_like_to_buy_a_helmet"),Loc::text("ui.i_would_like_to_buy_a_helmet"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "970014-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.buy_guild_trousers_and_boots"),Loc::text("ui.buy_guild_trousers_and_boots"),"text0",Loc::text("ui.i_would_like_to_buy_trousers"),Loc::text("ui.i_would_like_to_buy_trousers"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "970007-Holy Nation Mercenary Plastron.mod",DIALOGUE_LINE,Loc::text("ui.leave_guild_trade_reply"),Loc::text("ui.leave_guild_trade_reply"),"text0",Loc::text("ui.no_thank_you"),Loc::text("ui.no_thank_you"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "882051-Guild Escort Contracts.mod",FACTION,Loc::text("faction.mission_escort.2"),Loc::text("faction.mission_escort.2"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "882052-Guild Escort Contracts.mod",FACTION,Loc::text("faction.mission_escort.3"),Loc::text("faction.mission_escort.3"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "882053-Guild Escort Contracts.mod",FACTION,Loc::text("faction.mission_escort.4"),Loc::text("faction.mission_escort.4"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "882054-Guild Escort Contracts.mod",FACTION,Loc::text("faction.mission_escort.5"),Loc::text("faction.mission_escort.5"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "881500-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.do_you_have_any_contracts_for_my_guild"),Loc::text("ui.do_you_have_any_contracts_for_my_guild"),"text0",Loc::text("ui.do_you_have_any_contracts_for_my_guild"),Loc::text("ui.do_you_have_any_contracts_for_my_guild"));
+        setLocalizedRecord(ou, gMercenarieEnglish, "881501-Guild Escort Contracts.mod",DIALOGUE_LINE,Loc::text("ui.i_ve_got_your_target"),Loc::text("ui.i_ve_got_your_target"),"text0",Loc::text("ui.i_ve_got_your_target"),Loc::text("ui.i_ve_got_your_target"));
+    }
+}

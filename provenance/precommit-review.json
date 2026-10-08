@@ -1,0 +1,14 @@
+{
+  "build": "V9-CONTRACT-BOARD-20261008-109",
+  "input_counts": {
+    "source-sha256.json": 395,
+    "dependency-sha256.json": 12900
+  },
+  "scanned_files": 13349,
+  "pattern_findings": [],
+  "game_artwork_and_binaries_included": false,
+  "required_sdk_and_factual_tables_retained": true,
+  "native_game_test": false,
+  "push_authorized": false,
+  "scan_limit": "Pattern-based review is not a guarantee of absence of every secret."
+}

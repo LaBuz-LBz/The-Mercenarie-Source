@@ -1,0 +1,153 @@
+{
+  "original": {
+    "sha256": "3f5e35aca29d8685bf2e583570ed50d1ad0518d87115302ce6c978a2c84df423",
+    "bytes": 4344832,
+    "machine": 34404,
+    "pe_timestamp": 1791473666,
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "size": 2732544,
+        "offset": 1024,
+        "sha256": "577465c876b4a5d17e1419c7a7f16dcfd5930f7a6fd332a105bcd2464011e60f"
+      },
+      {
+        "name": ".rdata",
+        "rva": 2740224,
+        "size": 1439744,
+        "offset": 2733568,
+        "sha256": "fcb562c4c06dc541e96ef2e82c5abfbfed5537e28423b206f8bf2eedc14d00d3"
+      },
+      {
+        "name": ".data",
+        "rva": 4182016,
+        "size": 16896,
+        "offset": 4173312,
+        "sha256": "a65f412de03d6756c1e26252be7ac8c1bf03232e01837bdafe2095a6d4c5e9ea"
+      },
+      {
+        "name": ".pdata",
+        "rva": 4272128,
+        "size": 92160,
+        "offset": 4190208,
+        "sha256": "99ad85363d1c422f2d1acc5d7d1b7ce62b8af683ee8ceb86960049303d837816"
+      },
+      {
+        "name": ".tls",
+        "rva": 4366336,
+        "size": 512,
+        "offset": 4282368,
+        "sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+      },
+      {
+        "name": ".reloc",
+        "rva": 4370432,
+        "size": 61952,
+        "offset": 4282880,
+        "sha256": "0af164e93396972873f5007f8b5e7d7e0e1d0112454925147b83a2a8a93adbf4"
+      }
+    ]
+  },
+  "rebuilt": {
+    "sha256": "21530bd8d3341a890627ab15662f77178cc8dc1216beca612bc58e26c97ef842",
+    "bytes": 4345344,
+    "machine": 34404,
+    "pe_timestamp": 1791474938,
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "size": 2732544,
+        "offset": 1024,
+        "sha256": "0403e94df1202960802c4be30490f23b5a7a50c33fdc70b958515df930265e5f"
+      },
+      {
+        "name": ".rdata",
+        "rva": 2740224,
+        "size": 1440256,
+        "offset": 2733568,
+        "sha256": "48e86601f9430b82a7f6f9ba7f5c9a596dae06b791b9922a04924f7aefcd429d"
+      },
+      {
+        "name": ".data",
+        "rva": 4182016,
+        "size": 16896,
+        "offset": 4173824,
+        "sha256": "b0d681a5a331f5da7a9c65cb718f8dfa15a8048136042af906f1fe2e2a0dcee8"
+      },
+      {
+        "name": ".pdata",
+        "rva": 4272128,
+        "size": 92160,
+        "offset": 4190720,
+        "sha256": "79b76080042e0a65fc793b9fc4f3e141b8ba36bc9f1106589ed22cce87079c02"
+      },
+      {
+        "name": ".tls",
+        "rva": 4366336,
+        "size": 512,
+        "offset": 4282880,
+        "sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+      },
+      {
+        "name": ".reloc",
+        "rva": 4370432,
+        "size": 61952,
+        "offset": 4283392,
+        "sha256": "d7f00601e9a3cfc11b9215641842e42c9a727850805215951a4ea441ebe917fb"
+      }
+    ]
+  },
+  "byte_identical": false,
+  "different_byte_count": 522029,
+  "embedded_build_times": [
+    [
+      "Mercenarie UI access fix 2026-09-29 build Oct  8 2026 17:33:36"
+    ],
+    [
+      "Mercenarie UI access fix 2026-09-29 build Oct  8 2026 17:54:49"
+    ]
+  ],
+  "native_tested": false,
+  "different_range_count": 153493,
+  "symbol_comparison": {
+    "original_count": 36693,
+    "rebuilt_count": 36693,
+    "missing_after_anonymous_namespace_normalization": 5,
+    "extra_after_anonymous_namespace_normalization": 5,
+    "moved": 1423,
+    "moved_by_section": {
+      "0002": 1186,
+      "0003": 237
+    }
+  },
+  "observed_differences": [
+    "PE linker timestamps",
+    "__DATE__/__TIME__ string",
+    "MSVC anonymous namespace RTTI suffix: ?A0x40438106 vs ?A0xbfe0e334",
+    "Four wide-character absolute source-header paths differ, changing string literal symbols and data layout; function-symbol addresses in .text are unchanged"
+  ],
+  "interpretation": "Same recorded source and dependencies; successful separate build. Path-dependent compiler namespace identities can affect linker layout. Full bitwise or runtime equivalence not asserted.",
+  "include_isolation": {
+    "included_headers": 6159,
+    "unexpected_outside_repository_or_toolchain": 0
+  },
+  "imports_identical": true,
+  "exports_identical": true,
+  "imported_dlls": [
+    "KenshiLib.dll",
+    "OgreMain_x64.dll",
+    "MyGUIEngine_x64.dll",
+    "MSVCP100.dll",
+    "USER32.dll",
+    "MSVCR100.dll",
+    "KERNEL32.dll"
+  ],
+  "imported_symbol_count": 747,
+  "exports": [
+    "??0_Mutex@std@@QEAA@W4_Uninitialized@1@@Z",
+    "??4_Init_locks@std@@QEAAAEAV01@AEBV01@@Z",
+    "?startPlugin@@YAXXZ"
+  ]
+}
